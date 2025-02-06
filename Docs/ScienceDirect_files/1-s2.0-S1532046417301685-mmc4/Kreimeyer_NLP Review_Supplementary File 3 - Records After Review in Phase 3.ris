@@ -1,0 +1,2151 @@
+﻿TY  - JOUR
+AB  - Knowledge about maternal history is critical for guiding certain aspects of newborn clinical care as well as for research on neonatal issues. However, often the only maternal history available in the newborn record is in the clinical notes. We are using data from the MIMIC-II database for a clinical study on newborns admitted to the intensive care unit. Important maternal data were only available in the newborn notes, so we developed a simple algorithm to extract those data. We manually derived patterns for maternal age, gravida/para status, and laboratory results by reviewing a small set of notes. Using regular expressions and specific filters for notes and results, we extracted maternal data with recall of 0.91-0.99 and precision of 0.95-1.0 for the 289 infants in our study. Our methods could be used with other research datasets and with clinical documentation systems to extract maternal data into a more useful, structured format.
+AU  - Abhyankar, S.
+AU  - Demner-Fushman, D.
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21448055
+4528
+Abhyankar, Swapna Demner-Fushman, Dina Intramural NIH HHS/United States Research Support, N.I.H., Intramural United States AMIA Annu Symp Proc. 2013 Nov 16;2013:2-9. eCollection 2013.
+PY  - 2013
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 2-9
+ST  - A simple method to extract key maternal data from neonatal clinical notes
+T2  - AMIA Annu Symp Proc
+TI  - A simple method to extract key maternal data from neonatal clinical notes
+VL  - 2013
+ID  - 1
+ER  - 
+
+
+TY  - JOUR
+AB  - We describe Pathology Extraction Pipeline (PEP)--a new Open Health Natural Language Processing pipeline that we have developed for information extraction from pathology reports, with the goal of populating the extracted data into a research data warehouse. Specifically, we have built upon Medical Knowledge Analysis Tool pipeline (MedKATp), which is an extraction framework focused on pathology reports. Our particular contributions include additional customization and development on MedKATp to extract data elements and relationships from cancer pathology reports in richer detail than at present, an abstraction layer that provides significantly easier configuration of MedKATp for extraction tasks, and a machine-learning-based approach that makes the extraction more resilient to deviations from the common reporting format in a pathology reports corpus. We present experimental results demonstrating the effectiveness of our pipeline for information extraction in a real-world task, demonstrating performance improvement due to our approach for increasing extractor resilience to format deviation, and finally demonstrating the scalability of the pipeline across pathology reports for different cancer types.
+AU  - Ashish, N.
+AU  - Dahm, L.
+AU  - Boicey, C.
+DA  - 2014
+DO  - 10.1177/1460458213494032. Epub 2014 Aug 25.
+IS  - 4
+KW  - eppi-reviewer4
+N1  - 21448596
+4321
+PY  - 2014
+SN  - 1741-2811 (Electronic) 1460-4582 (Linking)
+SP  - 288-305
+ST  - University of California, Irvine-Pathology Extraction Pipeline: the pathology extraction pipeline for information extraction from pathology reports
+T2  - Health Informatics J
+TI  - University of California, Irvine-Pathology Extraction Pipeline: the pathology extraction pipeline for information extraction from pathology reports
+VL  - 20
+ID  - 2
+ER  - 
+
+
+TY  - JOUR
+AB  - Despite a trend to formalize and codify medical information, natural language communications still play a prominent role in health care workflows, in particular when it comes to hand-overs between providers. Natural language processing (NLP) attempts to bridge the gap between informal, natural language information and coded, machine-interpretable data. This paper reports on a study that applies an advanced NLP method for the extraction of sentinel events in palliative care consult letters. Sentinel events are of interest to predict survival and trajectory for patients with acute palliative conditions. Our NLP method combines several novel characteristics, e.g., the consideration of topological knowledge structures sourced from an ontological terminology system (SNOMED CT). The method has been applied to the extraction of different types of sentinel events, including simple facts, temporal conditions, quantities, and degrees. A random selection of 215 anonymized consult letters was used for the study. The results of the NLP extraction were evaluated by comparison with coded sentinel event data captured independently by clinicians. The average accuracy of the automated extraction was 73.6%.
+AU  - Barrett, N.
+AU  - Weber-Jahnke, J. H.
+AU  - Thai, V.
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21445053
+4752
+Barrett, Neil Weber-Jahnke, Jens H Thai, Vincent Research Support, Non-U.S. Gov't Netherlands Stud Health Technol Inform. 2013;192:594-8.
+PY  - 2013
+SN  - 0926-9630 (Print) 0926-9630 (Linking)
+SP  - 594-8
+ST  - Engineering natural language processing solutions for structured information from clinical text: extracting sentinel events from palliative care consult letters
+T2  - Stud Health Technol Inform
+TI  - Engineering natural language processing solutions for structured information from clinical text: extracting sentinel events from palliative care consult letters
+VL  - 192
+ID  - 3
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: The semantic integration of biomedical resources is still a challenging issue which is required for effective information processing and data analysis. The availability of comprehensive knowledge resources such as biomedical ontologies and integrated thesauri greatly facilitates this integration effort by means of semantic annotation, which allows disparate data formats and contents to be expressed under a common semantic space. In this paper, we propose a multidimensional representation for such a semantic space, where dimensions regard the different perspectives in biomedical research (e.g., population, disease, anatomy and protein/genes). RESULTS: This paper presents a novel method for building multidimensional semantic spaces from semantically annotated biomedical data collections. This method consists of two main processes: knowledge and data normalization. The former one arranges the concepts provided by a reference knowledge resource (e.g., biomedical ontologies and thesauri) into a set of hierarchical dimensions for analysis purposes. The latter one reduces the annotation set associated to each collection item into a set of points of the multidimensional space. Additionally, we have developed a visual tool, called 3D-Browser, which implements OLAP-like operators over the generated multidimensional space. The method and the tool have been tested and evaluated in the context of the Health-e-Child (HeC) project. Automatic semantic annotation was applied to tag three collections of abstracts taken from PubMed, one for each target disease of the project, the Uniprot database, and the HeC patient record database. We adopted the UMLS Meta-thesaurus 2010AA as the reference knowledge resource. CONCLUSIONS: Current knowledge resources and semantic-aware technology make possible the integration of biomedical resources. Such an integration is performed through semantic annotation of the intended biomedical data resources. This paper shows how these annotations can be exploited for integration, exploration, and analysis tasks. Results over a real scenario demonstrate the viability and usefulness of the approach, as well as the quality of the generated multidimensional semantic spaces.
+AU  - Berlanga, R.
+AU  - Jimenez-Ruiz, E.
+AU  - Nebot, V.
+DA  - 2012
+DO  - 10.1186/1471-2105-13-S1-S6.
+KW  - eppi-reviewer4
+N1  - 21445258
+5245
+PY  - 2012
+SN  - 1471-2105 (Electronic) 1471-2105 (Linking)
+SP  - S6
+ST  - Exploring and linking biomedical resources through multidimensional semantic spaces
+T2  - BMC Bioinformatics
+TI  - Exploring and linking biomedical resources through multidimensional semantic spaces
+VL  - 13 Suppl 1
+ID  - 4
+ER  - 
+
+
+TY  - JOUR
+AB  - Despite increased functionality for obtaining family history in a structured format within electronic health record systems, clinical notes often still contain this information. We developed and evaluated an Unstructured Information Management Application (UIMA)-based natural language processing (NLP) module for automated extraction of family history information with functionality for identifying statements, observations (e.g., disease or procedure), relative or side of family with attributes (i.e., vital status, age of diagnosis, certainty, and negation), and predication ("indicator phrases"), the latter of which was used to establish relationships between observations and family member. The family history NLP system demonstrated F-scores of 66.9, 92.4, 82.9, 57.3, 97.7, and 61.9 for detection of family history statements, family member identification, observation identification, negation identification, vital status, and overall extraction of the predications between family members and observations, respectively. While the system performed well for detection of family history statements and predication constituents, further work is needed to improve extraction of certainty and temporal modifications.
+AU  - Bill, R.
+AU  - Pakhomov, S.
+AU  - Chen, E. S.
+AU  - Winden, T. J.
+AU  - Carter, E. W.
+AU  - Melton, G. B.
+DA  - 2014
+KW  - eppi-reviewer4
+N1  - 21443736
+4596
+Bill, Robert Pakhomov, Serguei Chen, Elizabeth S Winden, Tamara J Carter, Elizabeth W Melton, Genevieve B 1 R01 GM102282-01A1/GM/NIGMS NIH HHS/United States 1 R01 LM011364-01/LM/NLM NIH HHS/United States 8UL1TR000114-02/TR/NCATS NIH HHS/United States R01 GM102282/GM/NIGMS NIH HHS/United States R01 LM011364/LM/NLM NIH HHS/United States U54 RR026066-01A2/RR/NCRR NIH HHS/United States UL1 TR000114/TR/NCATS NIH HHS/United States Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2014 Nov 14;2014:1709-17. eCollection 2014.
+PY  - 2014
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1709-17
+ST  - Automated extraction of family history information from clinical notes
+T2  - AMIA Annu Symp Proc
+TI  - Automated extraction of family history information from clinical notes
+VL  - 2014
+ID  - 5
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: The opportunity to integrate clinical decision support systems into clinical practice is limited due to the lack of structured, machine readable data in the current format of the electronic health record. Natural language processing has been designed to convert free text into machine readable data. The aim of the current study was to ascertain the feasibility of using natural language processing to extract clinical information from >76,000 breast pathology reports. APPROACH AND PROCEDURE: Breast pathology reports from three institutions were analyzed using natural language processing software (Clearforest, Waltham, MA) to extract information on a variety of pathologic diagnoses of interest. Data tables were created from the extracted information according to date of surgery, side of surgery, and medical record number. The variety of ways in which each diagnosis could be represented was recorded, as a means of demonstrating the complexity of machine interpretation of free text. RESULTS: There was widespread variation in how pathologists reported common pathologic diagnoses. We report, for example, 124 ways of saying invasive ductal carcinoma and 95 ways of saying invasive lobular carcinoma. There were >4000 ways of saying invasive ductal carcinoma was not present. Natural language processor sensitivity and specificity were 99.1% and 96.5% when compared to expert human coders. CONCLUSION: We have demonstrated how a large body of free text medical information such as seen in breast pathology reports, can be converted to a machine readable format using natural language processing, and described the inherent complexities of the task.
+AU  - Buckley, J. M.
+AU  - Coopey, S. B.
+AU  - Sharko, J.
+AU  - Polubriaginof, F.
+AU  - Drohan, B.
+AU  - Belli, A. K.
+AU  - Kim, E. M.
+AU  - Garber, J. E.
+AU  - Smith, B. L.
+AU  - Gadd, M. A.
+AU  - Specht, M. C.
+AU  - Roche, C. A.
+AU  - Gudewicz, T. M.
+AU  - Hughes, K. S.
+DA  - 2012
+DO  - 10.4103/2153-3539.97788. Epub 2012 Jun 30.
+KW  - eppi-reviewer4
+N1  - 21445352
+5076
+PY  - 2012
+SN  - 2153-3539 (Electronic)
+SP  - 23
+ST  - The feasibility of using natural language processing to extract clinical information from breast pathology reports
+T2  - J Pathol Inform
+TI  - The feasibility of using natural language processing to extract clinical information from breast pathology reports
+VL  - 3
+ID  - 6
+ER  - 
+
+
+TY  - JOUR
+AB  - The migration of imaging reports to electronic medical record systems holds great potential in terms of advancing radiology research and practice by leveraging the large volume of data continuously being updated, integrated, and shared. However, there are significant challenges as well, largely due to the heterogeneity of how these data are formatted. Indeed, although there is movement toward structured reporting in radiology (ie, hierarchically itemized reporting with use of standardized terminology), the majority of radiology reports remain unstructured and use free-form language. To effectively "mine" these large datasets for hypothesis testing, a robust strategy for extracting the necessary information is needed. Manual extraction of information is a time-consuming and often unmanageable task. "Intelligent" search engines that instead rely on natural language processing (NLP), a computer-based approach to analyzing free-form text or speech, can be used to automate this data mining task. The overall goal of NLP is to translate natural human language into a structured format (ie, a fixed collection of elements), each with a standardized set of choices for its value, that is easily manipulated by computer programs to (among other things) order into subcategories or query for the presence or absence of a finding. The authors review the fundamentals of NLP and describe various techniques that constitute NLP in radiology, along with some key applications.
+AU  - Cai, T.
+AU  - Giannopoulos, A. A.
+AU  - Yu, S.
+AU  - Kelil, T.
+AU  - Ripley, B.
+AU  - Kumamaru, K. K.
+AU  - Rybicki, F. J.
+AU  - Mitsouras, D.
+DA  - 2016
+DO  - 10.1148/rg.2016150080.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21446940
+3847
+PY  - 2016
+SN  - 1527-1323 (Electronic) 0271-5333 (Linking)
+SP  - 176-91
+ST  - Natural Language Processing Technologies in Radiology Research and Clinical Applications
+T2  - Radiographics
+TI  - Natural Language Processing Technologies in Radiology Research and Clinical Applications
+VL  - 36
+ID  - 7
+ER  - 
+
+
+TY  - CHAP
+A2  - Gao, J.
+A2  - Dubitzky, W.
+A2  - Wu, C.
+A2  - Liebman, M.
+A2  - Alhaij, R.
+A2  - Ungar, L.
+A2  - Christianson, A.
+A2  - Hu, X.
+AB  - The ability to connect the dots in structured background knowledge and also across scientific literature has been demonstrated as a critical aspect of knowledge discovery. It is not unreasonable therefore to expect that connecting-the-dots across massive amounts of healthcare data may also lead to new insights that could impact diagnosis, treatment and overall patient care. Of critical importance is the observation that while structured Electronic Medical Records (EMR) are useful sources of health information, it is often the unstructured clinical texts such as progress notes and discharge summaries that contain rich, updated and granular information. Hence, by coupling structured EMR data with data from unstructured clinical texts, more holistic patient records, needed for connecting the dots, can be obtained. Unfortunately, free-text progress notes are fraught with a lack of proper grammatical structure, and contain liberal use of jargon and abbreviations, together with frequent misspellings. While these notes still serve their intended purpose for medical care, automatically extracting semantic information from them is a complex task. Overcoming this complexity could mean that evidence-based support for structured EMR data using unstructured clinical texts, can be provided. In this work therefore, we explore a pattern-based approach for extracting Smoker Semantic Types (SST) from unstructured clinical notes, in order to enable evidence-based resolution of SSTs asserted in structured EMRs using SSTs extracted from unstructured clinical notes. Our findings support the notion that information present in unstructured clinical text can be used to complement structured healthcare data. This is a crucial observation towards creating comprehensive longitudinal patient models for connecting-the-dots and providing better overall patient care.
+AU  - Cameron, D.
+AU  - Bhagwan, V.
+AU  - Sheth, A. P.
+KW  - eppi-reviewer4
+N1  - 21448476
+8862
+Cameron, Delroy Bhagwan, Varun Sheth, Amit P. BIBMW IEEE International Conference on Bioinformatics and Biomedicine Workshops (BIBMW) OCT 04-07, 2012 Philadelphia, PA IEEE, IEEE Comp Soc (CS), Natl Sci Fdn (NSF), Omic Soft Corp, IEEE Comp Soc Tech Comm Bioinformat
+PY  - 2012
+SN  - 2163-6966 978-1-4673-2746-6; 978-1-4673-2745-9
+ST  - Towards Comprehensive Longitudinal Healthcare Data Capture
+T2  - 2012 Ieee International Conference on Bioinformatics and Biomedicine Workshops
+TI  - Towards Comprehensive Longitudinal Healthcare Data Capture
+UR  - <Go to ISI>://WOS:000320379600034
+ID  - 8
+ER  - 
+
+
+TY  - JOUR
+AB  - Comparative effectiveness research (CER) provides evidence for the relative effectiveness and risks of different treatment options and informs decisions made by healthcare providers, payers, and pharmaceutical companies. CER data come from retrospective analyses as well as prospective clinical trials. Here, we describe the development of a text-mining pipeline based on natural language processing (NLP) that extracts key information from three different trial data sources: NIH ClinicalTrials.gov, WHO International Clinical Trials Registry Platform (ICTRP), and Citeline Trialtrove. The pipeline leverages tailored terminologies to produce an integrated and structured output, capturing any trials in which pharmaceutical products of interest are compared with another therapy. The timely information alerts generated by this system provide the earliest and most complete picture of emerging clinical research.
+AU  - Chang, M. P.
+AU  - Chang, M.
+AU  - Reed, J. Z.
+AU  - Milward, D.
+AU  - Xu, J. J.
+AU  - Cornell, W. D.
+DA  - 2016
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21444692
+7722
+Chang, Meiping Chang, Man Reed, Jane Z. Milward, David Xu, Jinghai James Cornell, Wendy D.
+PY  - 2016
+SN  - 1359-6446
+SP  - 473-480
+ST  - Developing timely insights into comparative effectiveness research with a text-mining pipeline
+T2  - Drug Discovery Today
+TI  - Developing timely insights into comparative effectiveness research with a text-mining pipeline
+UR  - <Go to ISI>://WOS:000373750500013
+VL  - 21
+ID  - 9
+ER  - 
+
+
+TY  - JOUR
+AB  - Through Natural Language Processing (NLP) techniques, information can be extracted from clinical narratives for a variety of applications (e.g., patient management). While the complex and nested output of NLP systems can be expressed in standard formats, such as the eXtensible Markup Language (XML), these representations may not be directly suitable for certain end-users or applications. The availability of a aeuro tabular' format that simplifies the content and structure of NLP output may facilitate the dissemination and use by users who are more familiar with common spreadsheet, database, or statistical tools. In this paper, we describe the knowledge-based design of a tabular representation for NLP output and development of a transformation program for the structured output of MedLEE, an NLP system at our institution. Through an evaluation, we found that the simplified tabular format is comparable to existing more complex NLP formats in effectiveness for identifying clinical conditions in narrative reports.
+AU  - Chen, E. S.
+AU  - Hripcsak, G.
+AU  - Friedman, C.
+DA  - 2006
+KW  - eppi-reviewer4
+N1  - 21444825
+6560
+Chen, Elizabeth S Hripcsak, George Friedman, Carol LM006910/LM/NLM NIH HHS/United States LM007659/LM/NLM NIH HHS/United States LM008635/LM/NLM NIH HHS/United States R01 LM006910/LM/NLM NIH HHS/United States R01 LM007659/LM/NLM NIH HHS/United States R01 LM008635/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2006:126-30.
+PY  - 2006
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 126-30
+ST  - Disseminating natural language processed clinical narratives
+T2  - AMIA Annu Symp Proc
+TI  - Disseminating natural language processed clinical narratives
+ID  - 10
+ER  - 
+
+
+TY  - JOUR
+AB  - Nationwide Children's Hospital established an i2b2 (Informatics for Integrating Biology & the Bed-side) application for sleep disorder cohort identification. Discrete data were gleaned from semi-structured sleep study reports. The system showed to work more efficiently than the traditional manual chart review method, and it also enabled searching capabilities that were previously not possible. Objective: We report on the development and implementation of the sleep disorder i2b2 cohort identification system using natural language processing of semi-structured documents. Methods: We developed a natural language processing approach to automatically parse concepts and their values from semi-structured sleep study documents. Two parsers were developed: a regular expression parser for extracting numeric concepts and a NLP based tree parser for extracting textual concepts. Concepts were further organized into i2b2 ontologies based on document structures and in-domain knowledge. Results: 26,550 concepts were extracted with 99% being textual concepts. 1.01 million facts were extracted from sleep study documents such as demographic information, sleep study lab results, medications, procedures, diagnoses, among others. The average accuracy of terminology parsing was over 83% when comparing against those by experts. The system is capable of capturing both standard and non-standard terminologies. The time for cohort identification has been reduced significantly from a few weeks to a few seconds. Conclusion: Natural language processing was shown to be powerful for quickly converting large amount of semi-structured or unstructured clinical data into discrete concepts, which in combination of intuitive domain specific ontologies, allows fast and effective interactive cohort identification through the i2b2 platform for research and clinical use.
+AU  - Chen, W.
+AU  - Kowatch, R.
+AU  - Lin, S.
+AU  - Splaingard, M.
+AU  - Huang, Y.
+DA  - 2015
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21446156
+8056
+Chen, W. Kowatch, R. Lin, S. Splaingard, M. Huang, Y.
+PY  - 2015
+SN  - 1869-0327
+SP  - 345-363
+ST  - Interactive Cohort Identification of Sleep Disorder Patients Using Natural Language Processing and i2b2
+T2  - Applied Clinical Informatics
+TI  - Interactive Cohort Identification of Sleep Disorder Patients Using Natural Language Processing and i2b2
+UR  - <Go to ISI>://WOS:000358661700002
+VL  - 6
+ID  - 11
+ER  - 
+
+
+TY  - JOUR
+AB  - Background: Juvenile idiopathic arthritis is the most common rheumatic disease in children. Chronic uveitis is a common and serious comorbid condition of juvenile idiopathic arthritis, with insidious presentation and potential to cause blindness. Knowledge of clinical associations will improve risk stratification. Based on clinical observation, we hypothesized that allergic conditions are associated with chronic uveitis in juvenile idiopathic arthritis patients. Methods: This study is a retrospective cohort study using Stanford's clinical data warehouse containing data from Lucile Packard Children's Hospital from 2000-2011 to analyze patient characteristics associated with chronic uveitis in a large juvenile idiopathic arthritis cohort. Clinical notes in patients under 16 years of age were processed via a validated text analytics pipeline. Bivariate-associated variables were used in a multivariate logistic regression adjusted for age, gender, and race. Previously reported associations were evaluated to validate our methods. The main outcome measure was presence of terms indicating allergy or allergy medications use overrepresented in juvenile idiopathic arthritis patients with chronic uveitis. Residual text features were then used in unsupervised hierarchical clustering to compare clinical text similarity between patients with and without uveitis. Results: Previously reported associations with uveitis in juvenile idiopathic arthritis patients (earlier age at arthritis diagnosis, oligoarticular-onset disease, antinuclear antibody status, history of psoriasis) were reproduced in our study. Use of allergy medications and terms describing allergic conditions were independently associated with chronic uveitis. The association with allergy drugs when adjusted for known associations remained significant (OR 2.54, 95% Cl 1.22-5.4). Conclusions: This study shows the potential of using a validated text analytics pipeline on clinical data warehouses to examine practice-based evidence for evaluating hypotheses formed during patient care. Our study reproduces four known associations with uveitis development in juvenile idiopathic arthritis patients, and reports a new association between allergic conditions and chronic uveitis in juvenile idiopathic arthritis patients.
+AU  - Cole, T. S.
+AU  - Frankovich, J.
+AU  - Iyer, S.
+AU  - LePendu, P.
+AU  - Bauer-Mehren, A.
+AU  - Shah, N. H.
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21447550
+8424
+Cole, Tyler S. Frankovich, Jennifer Iyer, Srinivasan LePendu, Paea Bauer-Mehren, Anna Shah, Nigam H.
+PY  - 2013
+SN  - 1546-0096
+ST  - Profiling risk factors for chronic uveitis in juvenile idiopathic arthritis: a new model for EHR-based research
+T2  - Pediatric Rheumatology
+TI  - Profiling risk factors for chronic uveitis in juvenile idiopathic arthritis: a new model for EHR-based research
+UR  - <Go to ISI>://WOS:000328822300001
+VL  - 11
+ID  - 12
+ER  - 
+
+
+TY  - JOUR
+AB  - Sudden Unexpected Death in Epilepsy (SUDEP) is a poorly understood phenomenon. Patient cohorts to power statistical studies in SUDEP need to be drawn from multiple centers due to the low rate of reported SUDEP incidences. But the current practice of manual chart review of Epilepsy Monitoring Units (EMU) patient discharge summaries is time-consuming, tedious, and not scalable for large studies. To address this challenge in the multi-center NIH-funded Prevention and Risk Identification of SUDEP Mortality (PRISM) Project, we have developed the Epilepsy Data Extraction and Annotation (EpiDEA) system for effective processing of discharge summaries. EpiDEA uses a novel Epilepsy and Seizure Ontology (EpSO), which has been developed based on the International League Against Epilepsy (ILAE) classification system, as the core knowledge resource. By extending the cTAKES natural language processing tool developed at the Mayo Clinic, EpiDEA implements specialized functions to address the unique challenges of processing epilepsy and seizure-related clinical free text in discharge summaries. The EpiDEA system was evaluated on a corpus of 104 discharge summaries from the University Hospitals Case Medical Center EMU and achieved an overall precision of 93.59% and recall of 84.01% with an F-measure of 88.53%. The results were compared against a gold standard created by two epileptologists. We demonstrate the use of EpiDEA for cohort identification through use of an intuitive visual query interface that can be directly used by clinical researchers.
+AU  - Cui, L.
+AU  - Bozorgi, A.
+AU  - Lhatoo, S. D.
+AU  - Zhang, G. Q.
+AU  - Sahoo, S. S.
+DA  - 2012
+KW  - eppi-reviewer4
+N1  - 21445081
+4925
+Cui, Licong Bozorgi, Alireza Lhatoo, Samden D Zhang, Guo-Qiang Sahoo, Satya S 1-P20-NS076965-01/NS/NINDS NIH HHS/United States P20 NS076965/NS/NINDS NIH HHS/United States UL1 RR024989/RR/NCRR NIH HHS/United States UL1 TR000439/TR/NCATS NIH HHS/United States UL1TR000439/TR/NCATS NIH HHS/United States Evaluation Studies Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2012;2012:1191-200. Epub 2012 Nov 3.
+PY  - 2012
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1191-200
+ST  - EpiDEA: extracting structured epilepsy and seizure information from patient discharge summaries for cohort identification
+T2  - AMIA Annu Symp Proc
+TI  - EpiDEA: extracting structured epilepsy and seizure information from patient discharge summaries for cohort identification
+VL  - 2012
+ID  - 13
+ER  - 
+
+
+TY  - JOUR
+AB  - This software article describes the GATE family of open source text analysis tools and processes. GATE is one of the most widely used systems of its type with yearly download rates of tens of thousands and many active users in both academic and industrial contexts. In this paper we report three examples of GATE-based systems operating in the life sciences and in medicine. First, in genome-wide association studies which have contributed to discovery of a head and neck cancer mutation association. Second, medical records analysis which has significantly increased the statistical power of treatment/outcome models in the UK's largest psychiatric patient cohort. Third, richer constructs in drug-related searching. We also explore the ways in which the GATE family supports the various stages of the lifecycle present in our examples. We conclude that the deployment of text mining for document abstraction or rich search and navigation is best thought of as a process, and that with the right computational tools and data collection strategies this process can be made defined and repeatable. The GATE research programme is now 20 years old and has grown from its roots as a specialist development tool for text processing to become a rather comprehensive ecosystem, bringing together software developers, language engineers and research staff from diverse fields. GATE now has a strong claim to cover a uniquely wide range of the lifecycle of text analysis systems. It forms a focal point for the integration and reuse of advances that have been made by many people (the majority outside of the authors' own group) who work in text processing for biomedicine and other areas. GATE is available online < 1 > under GNU open source licences and runs on all major operating systems. Support is available from an active user and developer community and also on a commercial basis.
+AU  - Cunningham, H.
+AU  - Tablan, V.
+AU  - Roberts, A.
+AU  - Bontcheva, K.
+DA  - 2013
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21445632
+8562
+Cunningham, Hamish Tablan, Valentin Roberts, Angus Bontcheva, Kalina
+PY  - 2013
+SN  - 1553-7358
+ST  - Getting More Out of Biomedical Documents with GATE's Full Lifecycle Open Source Text Analytics
+T2  - Plos Computational Biology
+TI  - Getting More Out of Biomedical Documents with GATE's Full Lifecycle Open Source Text Analytics
+UR  - <Go to ISI>://WOS:000315708600001
+VL  - 9
+ID  - 14
+ER  - 
+
+
+TY  - JOUR
+AB  - Radiology departments are a rich source of information in the form of digital radiology reports and images obtained in patients with a wide spectrum of clinical conditions. A free text radiology report and image search application known as Render was created to allow users to find pertinent cases for a variety of purposes. Render is a radiology report and image repository that pools researchable information derived from multiple systems in near real time with use of (a) Health Level 7 links for radiology information system data, (b) periodic file transfers from the picture archiving and communication system, and (c) the results of natural language processing (NLP) analysis. Users can perform more structured and detailed searches with this application by combining different imaging and patient characteristics such as examination number; patient age, gender, and medical record number; and imaging modality. Use of NLP analysis allows a more effective search for reports with positive findings, resulting in the retrieval of more cases and terms having greater relevance. From the retrieved results, users can save images, bookmark examinations, and navigate to an external search engine such as Google. Render has applications in the fields of radiology education, research, and clinical decision support.
+AU  - Dang, P. A.
+AU  - Kalra, M. K.
+AU  - Schultz, T. J.
+AU  - Graham, S. A.
+AU  - Dreyer, K. J.
+DA  - 2009
+DO  - 10.1148/rg.295085036. Epub 2009 Jun 29.
+IS  - 5
+KW  - eppi-reviewer4
+N1  - 21446056
+6009
+PY  - 2009
+SN  - 1527-1323 (Electronic) 0271-5333 (Linking)
+SP  - 1233-46
+ST  - Informatics in radiology: Render: an online searchable radiology study repository
+T2  - Radiographics
+TI  - Informatics in radiology: Render: an online searchable radiology study repository
+VL  - 29
+ID  - 15
+ER  - 
+
+
+TY  - JOUR
+AB  - The Clinical Outcomes Assessment Toolkit (COAT) was created through a collaboration between the University of California, Los Angeles and Brigham and Women's Hospital to address the challenge of gathering, formatting, and abstracting data for clinical outcomes and performance measurement research. COAT provides a framework for the development of information pipelines to transform clinical data from its original structured, semi-structured, and unstructured forms to a standardized format amenable to statistical analysis. This system includes a collection of clinical data structures, reusable utilities for information analysis and transformation, and a graphical user interface through which pipelines can be controlled and their results audited by nontechnical users. The COAT architecture is presented, as well as two case studies of current implementations in the domain of prostate cancer outcomes assessment.
+AU  - D'Avolio, L. W.
+AU  - Bui, A. A.
+DA  - 2008
+DO  - 10.1197/jamia.M2550. Epub 2008 Feb 28.
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21444069
+6323
+PY  - 2008
+SN  - 1067-5027 (Print) 1067-5027 (Linking)
+SP  - 333-40
+ST  - The Clinical Outcomes Assessment Toolkit: a framework to support automated clinical records-based outcomes assessment and performance measurement research
+T2  - J Am Med Inform Assoc
+TI  - The Clinical Outcomes Assessment Toolkit: a framework to support automated clinical records-based outcomes assessment and performance measurement research
+VL  - 15
+ID  - 16
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: The field of clinical research informatics includes creation of clinical data repositories (CDRs) used to conduct quality improvement (QI) activities and comparative effectiveness research (CER). Ideally, CDR data are accurately and directly abstracted from disparate electronic health records (EHRs), across diverse health-systems. OBJECTIVE: Investigators from Washington State's Surgical Care Outcomes and Assessment Program (SCOAP) Comparative Effectiveness Research Translation Network (CERTAIN) are creating such a CDR. This manuscript describes the automation and validation methods used to create this digital infrastructure. METHODS: SCOAP is a QI benchmarking initiative. Data are manually abstracted from EHRs and entered into a data management system. CERTAIN investigators are now deploying Caradigm's Amalga tool to facilitate automated abstraction of data from multiple, disparate EHRs. Concordance is calculated to compare data automatically to manually abstracted. Performance measures are calculated between Amalga and each parent EHR. Validation takes place in repeated loops, with improvements made over time. When automated abstraction reaches the current benchmark for abstraction accuracy - 95% - itwill 'go-live' at each site. PROGRESS TO DATE: A technical analysis was completed at 14 sites. Five sites are contributing; the remaining sites prioritized meeting Meaningful Use criteria. Participating sites are contributing 15-18 unique data feeds, totaling 13 surgical registry use cases. Common feeds are registration, laboratory, transcription/dictation, radiology, and medications. Approximately 50% of 1,320 designated data elements are being automatically abstracted-25% from structured data; 25% from text mining. CONCLUSION: In semi-automating data abstraction and conducting a rigorous validation, CERTAIN investigators will semi-automate data collection to conduct QI and CER, while advancing the Learning Healthcare System.
+AU  - Devine, E. B.
+AU  - Capurro, D.
+AU  - van, Eaton
+AU  - Alfonso-Cristancho, R.
+AU  - Devlin, A.
+AU  - Yanez, N. D.
+AU  - Yetisgen-Yildiz, M.
+AU  - Flum, D. R.
+AU  - Tarczy-Hornoch, P.
+DA  - 2013
+DO  - 10.13063/2327-9214.1025. eCollection 2013.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21447493
+4951
+PY  - 2013
+SN  - 2327-9214 (Electronic) 2327-9214 (Linking)
+SP  - 1025
+ST  - Preparing Electronic Clinical Data for Quality Improvement and Comparative Effectiveness Research: The SCOAP CERTAIN Automation and Validation Project
+T2  - EGEMS (Wash DC)
+TI  - Preparing Electronic Clinical Data for Quality Improvement and Comparative Effectiveness Research: The SCOAP CERTAIN Automation and Validation Project
+VL  - 1
+ID  - 17
+ER  - 
+
+
+TY  - JOUR
+AB  - In contemporary electronic medical records much of the clinically important data-signs and symptoms, symptom severity, disease status, etc.-are not provided in structured data fields but rather are encoded in clinician-generated narrative text. Natural language processing (NLP) provides a means of unlocking this important data source for applications in clinical decision support, quality assurance, and public health. This chapter provides an overview of representative NLP systems in biomedicine based on a unified architectural view. A general architecture in an NLP system consists of two main components: background knowledge that includes biomedical knowledge resources and a framework that integrates NLP tools to process text. Systems differ in both components, which we review briefly. Additionally, the challenge facing current research efforts in biomedical NLP includes the paucity of large, publicly available annotated corpora, although initiatives that facilitate data sharing, system evaluation, and collaborative work between researchers in clinical NLP are starting to emerge.
+AU  - Doan, S.
+AU  - Conway, M.
+AU  - Phuong, T. M.
+AU  - Ohno-Machado, L.
+DA  - 2014
+DO  - 10.1007/978-1-4939-0847-9_16.
+KW  - eppi-reviewer4
+N1  - 21446939
+4442
+PY  - 2014
+SN  - 1940-6029 (Electronic) 1064-3745 (Linking)
+SP  - 275-94
+ST  - Natural language processing in biomedicine: a unified system architecture overview
+T2  - Methods Mol Biol
+TI  - Natural language processing in biomedicine: a unified system architecture overview
+VL  - 1168
+ID  - 18
+ER  - 
+
+
+TY  - RPRT
+AB  - The promise of the benefits of fully integrated electronic health care systems can only be realized if the quality of emerging large medical databases can be characterized and the meaning of the data understood. For this purpose, the effective visualization of large and complex health data for timely decision making is critical. Our long-term goal is to improve the usability of emerging large scale clinical data sets by developing effective and efficient open-source systems for health data analytics and visualization tools for clinicians, healthcare professionals, administrators, and patients. The objective of this application is to develop a prototype system to test the effectiveness of this approach on a large scale health care database that is currently available at Regenstrief Institute. We have reached this objective with the following specific accomplishments: Built a relational database as the representation of a health concept space, extracted from the NCD dataset, Natural Language Processing techniques were carried out to process 325791 clinical notes to extract new terms including diseases, symptoms, and mental and risky behaviors, Data mining techniques were applied to extract associations between terms in the concept space, and to discover new cluster terms, Designed and implemented a suite of novel visualization algorithms that allows the users to interactively explore the data based on the user selected terms and filters, Designed and implemented a web based graphical user interface for the prototype system, and Designed and tested an evaluation procedure for health data visualization system. This visualization framework offers a real time and web-based solution for the effective use of large scale military electronic health record systems by allowing system level integration of the human' visual capabilities into the overall health data based decision making system.
+AU  - Fang, Shiaofen
+AU  - Palakal, Mathew
+AU  - Xia, Yuni
+AU  - Grannis Shaun, J.
+AU  - Williams Jennifer, L.
+DA  - 2014
+KW  - eppi-reviewer4
+N1  - 21508729
+11374
+PB  - INDIANA UNIV INDIANAPOLIS
+PY  - 2014
+RP  - 21508729
+11374
+SN  - ADA624344, XA, USAMRMC, W81XWH-13-1-0020
+SP  - 79
+ST  - Health-Terrain: Visualizing Large Scale Health Data
+TI  - Health-Terrain: Visualizing Large Scale Health Data
+ID  - 19
+ER  - 
+
+
+TY  - JOUR
+AB  - Statistical text mining and natural language processing have been shown to be effective for extracting useful information from medical documents. However, neither technique is effective at extracting the information stored in semi-structure text elements. A prototype system (TagLine) was developed to extract information from the semi-structured text using machine learning and a rule based annotator. Features for the learning machine were suggested by prior work, and by examining text, and selecting attributes that help distinguish classes of text lines. Classes were derived empirically from text and guided by an ontology developed by the VHA's Consortium for Health Informatics Research (CHIR). Decision trees were evaluated for class predictions on 15,103 lines of text achieved an overall accuracy of 98.5 percent. The class labels applied to the lines were then used for annotating semi-structured text elements. TagLine achieved F-measure over 0.9 for each of the structures, which included tables, slots and fillers.
+AU  - Finch, D. K.
+AU  - McCart, J. A.
+AU  - Luther, S. L.
+DA  - 2014
+KW  - eppi-reviewer4
+N1  - 21448342
+4601
+Finch, Dezon K McCart, James A Luther, Stephen L Research Support, U.S. Gov't, Non-P.H.S. United States AMIA Annu Symp Proc. 2014 Nov 14;2014:534-43. eCollection 2014.
+PY  - 2014
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 534-43
+ST  - TagLine: Information Extraction for Semi-Structured Text in Medical Progress Notes
+T2  - AMIA Annu Symp Proc
+TI  - TagLine: Information Extraction for Semi-Structured Text in Medical Progress Notes
+VL  - 2014
+ID  - 20
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: The aim of this study was to build electronic algorithms using a combination of structured data and natural language processing (NLP) of text notes for potential safety surveillance of 9 postoperative complications. METHODS: Postoperative complications from 6 medical centers in the Southeastern United States were obtained from the Veterans Affairs Surgical Quality Improvement Program (VASQIP) registry. Development and test datasets were constructed using stratification by facility and date of procedure for patients with and without complications. Algorithms were developed from VASQIP outcome definitions using NLP-coded concepts, regular expressions, and structured data. The VASQIP nurse reviewer served as the reference standard for evaluating sensitivity and specificity. The algorithms were designed in the development and evaluated in the test dataset. RESULTS: Sensitivity and specificity in the test set were 85% and 92% for acute renal failure, 80% and 93% for sepsis, 56% and 94% for deep vein thrombosis, 80% and 97% for pulmonary embolism, 88% and 89% for acute myocardial infarction, 88% and 92% for cardiac arrest, 80% and 90% for pneumonia, 95% and 80% for urinary tract infection, and 77% and 63% for wound infection, respectively. A third of the complications occurred outside of the hospital setting. CONCLUSIONS: Computer algorithms on data extracted from the electronic health record produced respectable sensitivity and specificity across a large sample of patients seen in 6 different medical centers. This study demonstrates the utility of combining NLP with structured data for mining the information contained within the electronic health record.
+AU  - FitzHenry, F.
+AU  - Murff, H. J.
+AU  - Matheny, M. E.
+AU  - Gentry, N.
+AU  - Fielstein, E. M.
+AU  - Brown, S. H.
+AU  - Reeves, R. M.
+AU  - Aronsky, D.
+AU  - Elkin, P. L.
+AU  - Messina, V. P.
+AU  - Speroff, T.
+DA  - 2013
+DO  - 10.1097/MLR.0b013e31828d1210.
+IS  - 6
+KW  - eppi-reviewer4
+N1  - 21445270
+4826
+PY  - 2013
+SN  - 1537-1948 (Electronic) 0025-7079 (Linking)
+SP  - 509-16
+ST  - Exploring the frontier of electronic health record surveillance: the case of postoperative complications
+T2  - Med Care
+TI  - Exploring the frontier of electronic health record surveillance: the case of postoperative complications
+VL  - 51
+ID  - 21
+ER  - 
+
+
+TY  - JOUR
+AB  - MOTIVATION: Natural language processing (NLP) techniques are increasingly being used in biology to automate the capture of new biological discoveries in text, which are being reported at a rapid rate. Yet, information represented in NLP data structures is classically very different from information organized with ontologies as found in model organisms or genetic databases. To facilitate the computational reuse and integration of information buried in unstructured text with that of genetic databases, we propose and evaluate a translational schema that represents a comprehensive set of phenotypic and genetic entities, as well as their closely related biomedical entities and relations as expressed in natural language. In addition, the schema connects different scales of biological information, and provides mappings from the textual information to existing ontologies, which are essential in biology for integration, organization, dissemination and knowledge management of heterogeneous phenotypic information. A common comprehensive representation for otherwise heterogeneous phenotypic and genetic datasets, such as the one proposed, is critical for advancing systems biology because it enables acquisition and reuse of unprecedented volumes of diverse types of knowledge and information from text. RESULTS: A novel representational schema, PGschema, was developed that enables translation of phenotypic, genetic and their closely related information found in textual narratives to a well-defined data structure comprising phenotypic and genetic concepts from established ontologies along with modifiers and relationships. Evaluation for coverage of a selected set of entities showed that 90% of the information could be represented (95% confidence interval: 86-93%; n = 268). Moreover, PGschema can be expressed automatically in an XML format using natural language techniques to process the text. To our knowledge, we are providing the first evaluation of a translational schema for NLP that contains declarative knowledge about genes and their associated biomedical data (e.g. phenotypes). AVAILABILITY: http://zellig.cpmc.columbia.edu/PGschema
+AU  - Friedman, C.
+AU  - Borlawsky, T.
+AU  - Shagina, L.
+AU  - Xing, H. R.
+AU  - Lussier, Y. A.
+DA  - 2006
+IS  - 19
+KW  - eppi-reviewer4
+N1  - 21443874
+6658
+Friedman, Carol Borlawsky, Tara Shagina, Lyudmila Xing, H Rosie Lussier, Yves A 1K22 LM008308-01/LM/NLM NIH HHS/United States 1U54CA121852-01A1/CA/NCI NIH HHS/United States K22 LM008308/LM/NLM NIH HHS/United States K22 LM008308-03/LM/NLM NIH HHS/United States R01 LM007659/LM/NLM NIH HHS/United States R01 LM007659-01/LM/NLM NIH HHS/United States R01 LM008635/LM/NLM NIH HHS/United States R01 LM008635-01/LM/NLM NIH HHS/United States R01 LM07659/LM/NLM NIH HHS/United States R01 LM08635/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural England Bioinformatics. 2006 Oct 1;22(19):2421-9. Epub 2006 Jul 26.
+PY  - 2006
+SN  - 1367-4811 (Electronic) 1367-4803 (Linking)
+SP  - 2421-9
+ST  - Bio-Ontology and text: bridging the modeling gap
+T2  - Bioinformatics
+TI  - Bio-Ontology and text: bridging the modeling gap
+VL  - 22
+ID  - 22
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVES: Bringing together structured and text-based sources is an exciting challenge for biomedical informaticians, since most relevant biomedical sources belong to one of these categories. In this paper we evaluate the feasibility of integrating relational and text-based biomedical sources using: i) an original logical schema acquisition method for textual databases developed by the authors, and ii) OntoFusion, a system originally designed by the authors for the integration of relational sources. METHODS: We conducted an integration experiment involving a test set of seven differently structured sources covering the domain of genetic diseases. We used our logical schema acquisition method to generate schemas for all textual sources. The sources were integrated using the methods and tools provided by OntoFusion. The integration was validated using a test set of 500 queries. RESULTS: A panel of experts answered a questionnaire to evaluate i) the quality of the extracted schemas, ii) the query processing performance of the integrated set of sources, and iii) the relevance of the retrieved results. The results of the survey show that our method extracts coherent and representative logical schemas. Experts' feedback on the performance of the integrated system and the relevance of the retrieved results was also positive. Regarding the validation of the integration, the system successfully provided correct results for all queries in the test set. CONCLUSIONS: The results of the experiment suggest that text-based sources including a logical schema can be regarded as equivalent to structured databases. Using our method, previous research and existing tools designed for the integration of structured databases can be reused - possibly subject to minor modifications - to integrate differently structured sources.
+AU  - Garcia-Remesal, M.
+AU  - Maojo, V.
+AU  - Billhardt, H.
+AU  - Crespo, J.
+DA  - 2010
+DO  - 10.3414/ME0614. Epub 2009 Nov 20.
+IS  - 4
+KW  - eppi-reviewer4
+N1  - 21446133
+5910
+PY  - 2010
+SN  - 0026-1270 (Print) 0026-1270 (Linking)
+SP  - 337-48
+ST  - Integration of relational and textual biomedical sources. A pilot experiment using a semi-automated method for logical schema acquisition
+T2  - Methods Inf Med
+TI  - Integration of relational and textual biomedical sources. A pilot experiment using a semi-automated method for logical schema acquisition
+VL  - 49
+ID  - 23
+ER  - 
+
+
+TY  - JOUR
+AB  - We present a method that extracts medication information from discharge summaries. The program relies on parsing rules written as a set of regular expressions and on a user-configurable drug lexicon. Our evaluation shows a precision of 94% and recall of 83% in the extraction of medication information. We use a broader definition of medication information than previous studies, including drug names appearing with and without dosage information, misspelled drug names, and contextual information.
+AU  - Gold, S.
+AU  - Elhadad, N.
+AU  - Zhu, X.
+AU  - Cimino, J. J.
+AU  - Hripcsak, G.
+DA  - 2008
+KW  - eppi-reviewer4
+N1  - 21445307
+6169
+Gold, Sigfried Elhadad, Noemie Zhu, Xinxin Cimino, James J Hripcsak, George R01 LM006910/LM/NLM NIH HHS/United States R01 LM007659/LM/NLM NIH HHS/United States R01 LM008635/LM/NLM NIH HHS/United States Intramural NIH HHS/United States Research Support, N.I.H., Extramural Research Support, N.I.H., Intramural United States AMIA Annu Symp Proc. 2008 Nov 6:237-41.
+PY  - 2008
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 237-41
+ST  - Extracting structured medication event information from discharge summaries
+T2  - AMIA Annu Symp Proc
+TI  - Extracting structured medication event information from discharge summaries
+ID  - 24
+ER  - 
+
+
+TY  - JOUR
+AB  - The Human Phenotype Ontology (HPO) is widely used in the rare disease community for differential diagnostics, phenotype-driven analysis of next-generation sequence-variation data, and translational research, but a comparable resource has not been available for common disease. Here, we have developed a concept-recognition procedure that analyzes the frequencies of HPO disease annotations as identified in over five million PubMed abstracts by employing an iterative procedure to optimize precision and recall of the identified terms. We derived disease models for 3,145 common human diseases comprising a total of 132,006 HPO annotations. The HPO now comprises over 250,000 phenotypic annotations for over 10,000 rare and common diseases and can be used for examining the phenotypic overlap among common diseases that share risk alleles, as well as between Mendelian diseases and common diseases linked by genomic location. The annotations, as well as the HPO itself, are freely available.
+AU  - Groza, T.
+AU  - Kohler, S.
+AU  - Moldenhauer, D.
+AU  - Vasilevsky, N.
+AU  - Baynam, G.
+AU  - Zemojtel, T.
+AU  - Schriml, L. M.
+AU  - Kibbe, W. A.
+AU  - Schofield, P. N.
+AU  - Beck, T.
+AU  - Vasant, D.
+AU  - Brookes, A. J.
+AU  - Zankl, A.
+AU  - Washington, N. L.
+AU  - Mungall, C. J.
+AU  - Lewis, S. E.
+AU  - Haendel, M. A.
+AU  - Parkinson, H.
+AU  - Robinson, P. N.
+DA  - 2015
+DO  - 10.1016/j.ajhg.2015.05.020. Epub 2015 Jun 25.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21445804
+3981
+PY  - 2015
+SN  - 1537-6605 (Electronic) 0002-9297 (Linking)
+SP  - 111-24
+ST  - The Human Phenotype Ontology: Semantic Unification of Common and Rare Disease
+T2  - Am J Hum Genet
+TI  - The Human Phenotype Ontology: Semantic Unification of Common and Rare Disease
+VL  - 97
+ID  - 25
+ER  - 
+
+
+TY  - JOUR
+AB  - Objectives: To develop an adaptive approach to mine frequent semantic tags (FSTs) from heterogeneous clinical research texts. Methods: We develop a "plug-n-play" framework that integrates replaceable unsupervised kernel algorithms with formatting, functional, and utility wrappers for FST mining. Temporal information identification and semantic equivalence detection were; two example functional wrappers. We first compared this approach's recall and efficiency for mining FSTs from ClinicalTrials.gov to that of a recently published tag-mining algorithm. Then we assessed this approach's adaptability to two other types of clinical research texts: clinical data requests and clinical trial protocols, by comparing the prevalence trends of FSTs across three texts. Results: Our approach increased the average recall and speed by 12.8% and 47.02% respectively upon the baseline when mining FSTs from ClinicalTrials.gov, and maintained an overlap in relevant FSTs with the baseline ranging between 76.9% and 100% for varying FST frequency thresholds. The FSTs saturated when the data size reached 200 documents. Consistent trends in the prevalence of FST were observed across the three texts as the data size or frequency threshold changed. Conclusions: This paper contributes an adaptive tag-mining framework that is scalable and adaptable without sacrificing its recall. This component-based architectural design can be potentially generalizable to improve the adaptability of other clinical text mining methods.
+AU  - Hao, T.
+AU  - Weng, C.
+DA  - 2015
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21443467
+8075
+Hao, T. Weng, C.
+PY  - 2015
+SN  - 0026-1270
+SP  - 164-170
+ST  - Adaptive Semantic Tag Mining from Heterogeneous Clinical Research Texts
+T2  - Methods of Information in Medicine
+TI  - Adaptive Semantic Tag Mining from Heterogeneous Clinical Research Texts
+UR  - <Go to ISI>://WOS:000351804000008
+VL  - 54
+ID  - 26
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVES: The radiology report is the most important source of clinical imaging information. It documents critical information about the patient's health and the radiologist's interpretation of medical findings. It also communicates information to the referring physicians and records that information for future clinical and research use. Although efforts to structure some radiology report information through predefined templates are beginning to bear fruit, a large portion of radiology report information is entered in free text. The free text format is a major obstacle for rapid extraction and subsequent use of information by clinicians, researchers, and healthcare information systems. This difficulty is due to the ambiguity and subtlety of natural language, complexity of described images, and variations among different radiologists and healthcare organizations. As a result, radiology reports are used only once by the clinician who ordered the study and rarely are used again for research and data mining. In this work, machine learning techniques and a large multi-institutional radiology report repository are used to extract the semantics of the radiology report and overcome the barriers to the re-use of radiology report information in clinical research and other healthcare applications. MATERIAL AND METHODS: We describe a machine learning system to annotate radiology reports and extract report contents according to an information model. This information model covers the majority of clinically significant contents in radiology reports and is applicable to a wide variety of radiology study types. Our automated approach uses discriminative sequence classifiers for named-entity recognition to extract and organize clinically significant terms and phrases consistent with the information model. We evaluated our information extraction system on 150 radiology reports from three major healthcare organizations and compared its results to a commonly used non-machine learning information extraction method. We also evaluated the generalizability of our approach across different organizations by training and testing our system on data from different organizations. RESULTS: Our results show the efficacy of our machine learning approach in extracting the information model's elements (10-fold cross-validation average performance: precision: 87%, recall: 84%, F1 score: 85%) and its superiority and generalizability compared to the common non-machine learning approach (p-value<0.05). CONCLUSIONS: Our machine learning information extraction approach provides an effective automatic method to annotate and extract clinically significant information from a large collection of free text radiology reports. This information extraction system can help clinicians better understand the radiology reports and prioritize their review process. In addition, the extracted information can be used by researchers to link radiology reports to information from other data sources such as electronic health records and the patient's genome. Extracted information also can facilitate disease surveillance, real-time clinical decision support for the radiologist, and content-based image retrieval.
+AU  - Hassanpour, S.
+AU  - Langlotz, C. P.
+DA  - 2016
+DO  - 10.1016/j.artmed.2015.09.007. Epub 2015 Oct 3.
+KW  - eppi-reviewer4
+N1  - 21446064
+3880
+PY  - 2016
+SN  - 1873-2860 (Electronic) 0933-3657 (Linking)
+SP  - 29-39
+ST  - Information extraction from multi-institutional radiology reports
+T2  - Artif Intell Med
+TI  - Information extraction from multi-institutional radiology reports
+VL  - 66
+ID  - 27
+ER  - 
+
+
+TY  - JOUR
+AB  - Much evidence has shown that people's physical and mental health can be predicted by the words they use. However, such verbal information is seldom used in the screening and diagnosis process probably because the procedure to handle these words is rather difficult with traditional quantitative methods. The first challenge would be to extract robust information from diversified expression patterns, the second to transform unstructured text into a structuralized dataset. The present study developed a new textual assessment method to screen the posttraumatic stress disorder (PTSD) patients using lexical features in the self narratives with text mining techniques. Using 300 self narratives collected online, we extracted highly discriminative keywords with the Chi-square algorithm and constructed a textual assessment model to classify individuals with the presence or absence of PTSD. This resulted in a high agreement between computer and psychiatrists' diagnoses for PTSD and revealed some expressive characteristics in the writings of PTSD patients. Although the results of text analysis are not completely analogous to the results of structured interviews in PTSD diagnosis, the application of text mining is a promising addition to assessing PTSD in clinical and research settings.
+AU  - He, Q.
+AU  - Veldkamp, B. P.
+AU  - de, Vries
+DA  - 2012
+DO  - 10.1016/j.psychres.2012.01.032. Epub 2012 Mar 29.
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21447945
+5216
+PY  - 2012
+SN  - 1872-7123 (Electronic) 0165-1781 (Linking)
+SP  - 441-7
+ST  - Screening for posttraumatic stress disorder using verbal features in self narratives: a text mining approach
+T2  - Psychiatry Res
+TI  - Screening for posttraumatic stress disorder using verbal features in self narratives: a text mining approach
+VL  - 198
+ID  - 28
+ER  - 
+
+
+TY  - JOUR
+AB  - ClinicalTrials.gov presents great opportunities for analyzing commonalities in clinical trial target populations to facilitate knowledge reuse when designing eligibility criteria of future trials or to reveal potential systematic biases in selecting population subgroups for clinical research. Towards this goal, this paper presents a novel data resource for enabling such analyses. Our method includes two parts: (1) parsing and indexing eligibility criteria text; and (2) mining common eligibility features and attributes of common numeric features (e.g., A1c). We designed and built a database called "Commonalities in Target Populations of Clinical Trials" (COMPACT), which stores structured eligibility criteria and trial metadata in a readily computable format. We illustrate its use in an example analytic module called CONECT using COMPACT as the backend. Type 2 diabetes is used as an example to analyze commonalities in the target populations of 4,493 clinical trials on this disease.
+AU  - He, Z.
+AU  - Carini, S.
+AU  - Hao, T.
+AU  - Sim, I.
+AU  - Weng, C.
+DA  - 2014
+KW  - eppi-reviewer4
+N1  - 21446567
+4595
+He, Zhe Carini, Simona Hao, Tianyong Sim, Ida Weng, Chunhua R01 LM009886/LM/NLM NIH HHS/United States R01LM009886/LM/NLM NIH HHS/United States UL1 TR000040/TR/NCATS NIH HHS/United States Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2014 Nov 14;2014:1777-86. eCollection 2014.
+PY  - 2014
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1777-86
+ST  - A method for analyzing commonalities in clinical trial target populations
+T2  - AMIA Annu Symp Proc
+TI  - A method for analyzing commonalities in clinical trial target populations
+VL  - 2014
+ID  - 29
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Translational research typically requires data abstracted from medical records as well as data collected specifically for research. Unfortunately, many data within electronic health records are represented as text that is not amenable to aggregation for analyses. We present a scalable open source SQL Server Integration Services package, called Regextractor, for including regular expression parsers into a classic extract, transform, and load workflow. We have used Regextractor to abstract discrete data from textual reports from a number of 'machine generated' sources. To validate this package, we created a pulmonary function test data mart and analyzed the quality of the data mart versus manual chart review. METHODS: Eleven variables from pulmonary function tests performed closest to the initial clinical evaluation date were studied for 100 randomly selected subjects with scleroderma. One research assistant manually reviewed, abstracted, and entered relevant data into a database. Correlation with data obtained from the automated pulmonary function test data mart within the Northwestern Medical Enterprise Data Warehouse was determined. RESULTS: There was a near perfect (99.5%) agreement between results generated from the Regextractor package and those obtained via manual chart abstraction. The pulmonary function test data mart has been used subsequently to monitor disease progression of patients in the Northwestern Scleroderma Registry. In addition to the pulmonary function test example presented in this manuscript, the Regextractor package has been used to create cardiac catheterization and echocardiography data marts. The Regextractor package was released as open source software in October 2009 and has been downloaded 552 times as of 6/1/2012. CONCLUSIONS: Collaboration between clinical researchers and biomedical informatics experts enabled the development and validation of a tool (Regextractor) to parse, abstract and assemble structured data from text data contained in the electronic health record. Regextractor has been successfully used to create additional data marts in other medical domains and is available to the public.
+AU  - Hinchcliff, M.
+AU  - Just, E.
+AU  - Podlusky, S.
+AU  - Varga, J.
+AU  - Chang, R. W.
+AU  - Kibbe, W. A.
+DA  - 2012
+DO  - 10.1186/1472-6947-12-106.
+KW  - eppi-reviewer4
+N1  - 21448379
+5062
+PY  - 2012
+SN  - 1472-6947 (Electronic) 1472-6947 (Linking)
+SP  - 106
+ST  - Text data extraction for a prospective, research-focused data mart: implementation and validation
+T2  - BMC Med Inform Decis Mak
+TI  - Text data extraction for a prospective, research-focused data mart: implementation and validation
+VL  - 12
+ID  - 30
+ER  - 
+
+
+TY  - JOUR
+AB  - Phenotypes are the observable characteristics of an organism arising from its response to the environment. Phenotypes associated with engineered and natural genetic variation are widely recorded using phenotype ontologies in model organisms, as are signs and symptoms of human Mendelian diseases in databases such as OMIM and Orphanet. Exploiting these resources, several computational methods have been developed for integration and analysis of phenotype data to identify the genetic etiology of diseases or suggest plausible interventions. A similar resource would be highly useful not only for rare and Mendelian diseases, but also for common, complex and infectious diseases. We apply a semantic text-mining approach to identify the phenotypes (signs and symptoms) associated with over 6,000 diseases. We evaluate our text-mined phenotypes by demonstrating that they can correctly identify known disease-associated genes in mice and humans with high accuracy. Using a phenotypic similarity measure, we generate a human disease network in which diseases that have similar signs and symptoms cluster together, and we use this network to identify closely related diseases based on common etiological, anatomical as well as physiological underpinnings.
+AU  - Hoehndorf, R.
+AU  - Schofield, P. N.
+AU  - Gkoutos, G. V.
+DA  - 2015
+DO  - 10.1038/srep10888.
+KW  - eppi-reviewer4
+N1  - 21443552
+4003
+PY  - 2015
+SN  - 2045-2322 (Electronic) 2045-2322 (Linking)
+SP  - 10888
+ST  - Analysis of the human diseasome using phenotype similarity between common, genetic, and infectious diseases
+T2  - Sci Rep
+TI  - Analysis of the human diseasome using phenotype similarity between common, genetic, and infectious diseases
+VL  - 5
+ID  - 31
+ER  - 
+
+
+TY  - JOUR
+AB  - Data mining in electronic medical records may facilitate clinical research, but much of the structured data may be miscoded, incomplete, or non-specific. The exploitation of narrative data using natural language processing may help, although nesting, varying granularity, and repetition remain challenges. In a study of community-acquired pneumonia using electronic records, these issues led to poor classification. Limiting queries to accurate, complete records led to vastly reduced, possibly biased samples. We exploited knowledge latent in the electronic records to improve classification. A similarity metric was used to cluster cases. We defined discordance as the degree to which cases within a cluster give different answers for some query that addresses a classification task of interest. Cases with higher discordance are more likely to be incorrectly classified, and can be reviewed manually to adjust the classification, improve the query, or estimate the likely accuracy of the query. In a study of pneumonia--in which the ICD9-CM coding was found to be very poor--the discordance measure was statistically significantly correlated with classification correctness (.45; 95% CI .15-.62).
+AU  - Hripcsak, G.
+AU  - Knirsch, C.
+AU  - Zhou, L.
+AU  - Wilcox, A.
+AU  - Melton, G. B.
+DA  - 2007
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21448669
+6699
+Hripcsak, George Knirsch, Charles Zhou, Li Wilcox, Adam Melton, Genevieve B R01 LM006910/LM/NLM NIH HHS/United States R01 LM06910/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural Research Support, Non-U.S. Gov't United States Comput Biol Med. 2007 Mar;37(3):296-304. Epub 2006 Apr 18.
+PY  - 2007
+SN  - 0010-4825 (Print) 0010-4825 (Linking)
+SP  - 296-304
+ST  - Using discordance to improve classification in narrative clinical databases: an application to community-acquired pneumonia
+T2  - Comput Biol Med
+TI  - Using discordance to improve classification in narrative clinical databases: an application to community-acquired pneumonia
+VL  - 37
+ID  - 32
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: To assess the performance of electronic health record data for syndromic surveillance and to assess the feasibility of broadly distributed surveillance. DESIGN: Two systems were developed to identify influenza-like illness and gastrointestinal infectious disease in ambulatory electronic health record data from a network of community health centers. The first system used queries on structured data and was designed for this specific electronic health record. The second used natural language processing of narrative data, but its queries were developed independently from this health record. Both were compared to influenza isolates and to a verified emergency department chief complaint surveillance system. MEASUREMENTS: Lagged cross-correlation and graphs of the three time series. RESULTS: For influenza-like illness, both the structured and narrative data correlated well with the influenza isolates and with the emergency department data, achieving cross-correlations of 0.89 (structured) and 0.84 (narrative) for isolates and 0.93 and 0.89 for emergency department data, and having similar peaks during influenza season. For gastrointestinal infectious disease, the structured data correlated fairly well with the emergency department data (0.81) with a similar peak, but the narrative data correlated less well (0.47). CONCLUSIONS: It is feasible to use electronic health records for syndromic surveillance. The structured data performed best but required knowledge engineering to match the health record data to the queries. The narrative data illustrated the potential performance of a broadly disseminated system and achieved mixed results.
+AU  - Hripcsak, G.
+AU  - Soulakis, N. D.
+AU  - Li, L.
+AU  - Morrison, F. P.
+AU  - Lai, A. M.
+AU  - Friedman, C.
+AU  - Calman, N. S.
+AU  - Mostashari, F.
+DA  - 2009
+DO  - 10.1197/jamia.M2922. Epub 2009 Mar 4.
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21448301
+6084
+PY  - 2009
+SN  - 1067-5027 (Print) 1067-5027 (Linking)
+SP  - 354-61
+ST  - Syndromic surveillance using ambulatory electronic health records
+T2  - J Am Med Inform Assoc
+TI  - Syndromic surveillance using ambulatory electronic health records
+VL  - 16
+ID  - 33
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: Depression is a prevalent disorder difficult to diagnose and treat. In particular, depressed patients exhibit largely unpredictable responses to treatment. Toward the goal of personalizing treatment for depression, we develop and evaluate computational models that use electronic health record (EHR) data for predicting the diagnosis and severity of depression, and response to treatment. MATERIALS AND METHODS: We develop regression-based models for predicting depression, its severity, and response to treatment from EHR data, using structured diagnosis and medication codes as well as free-text clinical reports. We used two datasets: 35,000 patients (5000 depressed) from the Palo Alto Medical Foundation and 5651 patients treated for depression from the Group Health Research Institute. RESULTS: Our models are able to predict a future diagnosis of depression up to 12 months in advance (area under the receiver operating characteristic curve (AUC) 0.70-0.80). We can differentiate patients with severe baseline depression from those with minimal or mild baseline depression (AUC 0.72). Baseline depression severity was the strongest predictor of treatment response for medication and psychotherapy. CONCLUSIONS: It is possible to use EHR data to predict a diagnosis of depression up to 12 months in advance and to differentiate between extreme baseline levels of depression. The models use commonly available data on diagnosis, medication, and clinical progress notes, making them easily portable. The ability to automatically determine severity can facilitate assembly of large patient cohorts with similar severity from multiple sites, which may enable elucidation of the moderators of treatment response in the future.
+AU  - Huang, S. H.
+AU  - LePendu, P.
+AU  - Iyer, S. V.
+AU  - Tai-Seale, M.
+AU  - Carrell, D.
+AU  - Shah, N. H.
+DA  - 2014
+DO  - 10.1136/amiajnl-2014-002733. Epub 2014 Jul 2.
+IS  - 6
+KW  - eppi-reviewer4
+N1  - 21448454
+4393
+PY  - 2014
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - 1069-75
+ST  - Toward personalizing treatment for depression: predicting diagnosis and severity
+T2  - J Am Med Inform Assoc
+TI  - Toward personalizing treatment for depression: predicting diagnosis and severity
+VL  - 21
+ID  - 34
+ER  - 
+
+
+TY  - JOUR
+AB  - Natural Language Processing (NLP) offers an approach for capturing data from narratives and creating structured reports for further computer processing. We explored the ability of a NLP system, Medical Language Extraction and Encoding (MedLEE), on nursing narratives MedLEE extracted 490 concepts from narrative text in a sample of 553 oncology nursing process notes. The most frequently monitored and recorded signs and symptoms were related to chemotherapy care, such as adverse reactions shortness of breath, nausea, pain and bleeding. In terms of nursing interventions, chemotherapy blood culture, medication, and blood transfusion were commonly recorded in free text NLP may provide a feasible approach to extract data related to patient safety/quality measures and nursing outcomes by capturing nursing concepts that are not recorded through structured data entry. For better NLP performance in the domain of nursing additional nursing terms and abbreviations must be added to MedLEE lexicon.
+AU  - Hyun, S.
+AU  - Johnson, S. B.
+AU  - Bakken, S.
+DA  - 2009
+IS  - 4
+KW  - eppi-reviewer4
+N1  - 21445268
+9022
+Hyun, Sookyung Johnson, Stephen B. Bakken, Suzanne Hyun, Sookyung/G-3509-2012
+PY  - 2009
+SN  - 1538-2931
+SP  - 215-223
+ST  - Exploring the Ability of Natural Language Processing to Extract Data From Nursing Narratives
+T2  - Cin-Computers Informatics Nursing
+TI  - Exploring the Ability of Natural Language Processing to Extract Data From Nursing Narratives
+UR  - <Go to ISI>://WOS:000267722400002
+VL  - 27
+ID  - 35
+ER  - 
+
+
+TY  - JOUR
+AB  - The vast collection of biomedical literature and its continued expansion has presented a number of challenges to researchers who require structured findings to stay abreast of and analyze molecular mechanisms relevant to their domain of interest. By structuring literature content into topic-specific machine-readable databases, the aggregate data from multiple articles can be used to infer trends that can be compared and contrasted with similar findings from topic-independent resources. Our study presents a generalized procedure for semi-automatically creating a custom topic-specific molecular interaction database through the use of text mining to assist manual curation. We apply the procedure to capture molecular events that underlie 'pain', a complex phenomenon with a large societal burden and unmet medical need. We describe how existing text mining solutions are used to build a pain-specific corpus, extract molecular events from it, add context to the extracted events and assess their relevance. The pain-specific corpus contains 765 692 documents from Medline and PubMed Central, from which we extracted 356 499 unique normalized molecular events, with 261 438 single protein events and 93 271 molecular interactions supplied by BioContext. Event chains are annotated with negation, speculation, anatomy, Gene Ontology terms, mutations, pain and disease relevance, which collectively provide detailed insight into how that event chain is associated with pain. The extracted relations are visualized in a wiki platform (wiki-pain.org) that enables efficient manual curation and exploration of the molecular mechanisms that underlie pain. Curation of 1500 grouped event chains ranked by pain relevance revealed 613 accurately extracted unique molecular interactions that in the future can be used to study the underlying mechanisms involved in pain. Our approach demonstrates that combining existing text mining tools with domain-specific terms and wiki-based visualization can facilitate rapid curation of molecular interactions to create a custom database. Database URL: ***
+AU  - Jamieson, D. G.
+AU  - Roberts, P. M.
+AU  - Robertson, D. L.
+AU  - Sidders, B.
+AU  - Nenadic, G.
+DA  - 2013
+DO  - 10.1093/database/bat033. Print 2013.
+KW  - eppi-reviewer4
+N1  - 21443969
+4808
+PY  - 2013
+SN  - 1758-0463 (Electronic) 1758-0463 (Linking)
+SP  - bat033
+ST  - Cataloging the biomedical world of pain through semi-automated curation of molecular interactions
+T2  - Database (Oxford)
+TI  - Cataloging the biomedical world of pain through semi-automated curation of molecular interactions
+VL  - 2013
+ID  - 36
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Prioritizing genetic variants is a challenge because disease susceptibility loci are often located in genes of unknown function or the relationship with the corresponding phenotype is unclear. A global data-mining exercise on the biomedical literature can establish the phenotypic profile of genes with respect to their connection to disease phenotypes. The importance of protein-protein interaction networks in the genetic heterogeneity of common diseases or complex traits is becoming increasingly recognized. Thus, the development of a network-based approach combined with phenotypic profiling would be useful for disease gene prioritization. RESULTS: We developed a random-set scoring model and implemented it to quantify phenotype relevance in a network-based disease gene-prioritization approach. We validated our approach based on different gene phenotypic profiles, which were generated from PubMed abstracts, OMIM, and GeneRIF records. We also investigated the validity of several vocabulary filters and different likelihood thresholds for predicted protein-protein interactions in terms of their effect on the network-based gene-prioritization approach, which relies on text-mining of the phenotype data. Our method demonstrated good precision and sensitivity compared with those of two alternative complex-based prioritization approaches. We then conducted a global ranking of all human genes according to their relevance to a range of human diseases. The resulting accurate ranking of known causal genes supported the reliability of our approach. Moreover, these data suggest many promising novel candidate genes for human disorders that have a complex mode of inheritance. CONCLUSION: We have implemented and validated a network-based approach to prioritize genes for human diseases based on their phenotypic profile. We have devised a powerful and transparent tool to identify and rank candidate genes. Our global gene prioritization provides a unique resource for the biological interpretation of data from genome-wide association studies, and will help in the understanding of how the associated genetic variants influence disease or quantitative phenotypes.
+AU  - Jiang, L.
+AU  - Edwards, S. M.
+AU  - Thomsen, B.
+AU  - Workman, C. T.
+AU  - Guldbrandtsen, B.
+AU  - Sorensen, P.
+DA  - 2014
+DO  - 10.1186/1471-2105-15-315.
+KW  - eppi-reviewer4
+N1  - 21447661
+4273
+PY  - 2014
+SN  - 1471-2105 (Electronic) 1471-2105 (Linking)
+SP  - 315
+ST  - A random set scoring model for prioritization of disease candidate genes using protein complexes and data-mining of GeneRIF, OMIM and PubMed records
+T2  - BMC Bioinformatics
+TI  - A random set scoring model for prioritization of disease candidate genes using protein complexes and data-mining of GeneRIF, OMIM and PubMed records
+VL  - 15
+ID  - 37
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: To develop an electronic health record that facilitates rapid capture of detailed narrative observations from clinicians, with partial structuring of narrative information for integration and reuse. DESIGN: We propose a design in which unstructured text and coded data are fused into a single model called structured narrative. Each major clinical event (e.g., encounter or procedure) is represented as a document that is marked up to identify gross structure (sections, fields, paragraphs, lists) as well as fine structure within sentences (concepts, modifiers, relationships). Marked up items are associated with standardized codes that enable linkage to other events, as well as efficient reuse of information, which can speed up data entry by clinicians. Natural language processing is used to identify fine structure, which can reduce the need for form-based entry. VALIDATION: The model is validated through an example of use by a clinician, with discussion of relevant aspects of the user interface, data structures and processing rules. DISCUSSION: The proposed model represents all patient information as documents with standardized gross structure (templates). Clinicians enter their data as free text, which is coded by natural language processing in real time making it immediately usable for other computation, such as alerts or critiques. In addition, the narrative data annotates and augments structured data with temporal relations, severity and degree modifiers, causal connections, clinical explanations and rationale. CONCLUSION: Structured narrative has potential to facilitate capture of data directly from clinicians by allowing freedom of expression, giving immediate feedback, supporting reuse of clinical information and structuring data for subsequent processing, such as quality assurance and clinical research.
+AU  - Johnson, S. B.
+AU  - Bakken, S.
+AU  - Dine, D.
+AU  - Hyun, S.
+AU  - Mendonca, E.
+AU  - Morrison, F.
+AU  - Bright, T.
+AU  - Van, Vleck
+AU  - Wrenn, J.
+AU  - Stetson, P.
+DA  - 2008
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21445006
+6416
+Johnson, Stephen B Bakken, Suzanne Dine, Daniel Hyun, Sookyung Mendonca, Eneida Morrison, Frances Bright, Tiffani Van Vleck, Tielman Wrenn, Jesse Stetson, Peter 1K22 LM008805/LM/NLM NIH HHS/United States 5R01 LM007268/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural United States J Am Med Inform Assoc. 2008 Jan-Feb;15(1):54-64. Epub 2007 Oct 18.
+PY  - 2008
+SN  - 1067-5027 (Print) 1067-5027 (Linking)
+SP  - 54-64
+ST  - An electronic health record based on structured narrative
+T2  - J Am Med Inform Assoc
+TI  - An electronic health record based on structured narrative
+VL  - 15
+ID  - 38
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Antipsychotic prescription information is commonly derived from structured fields in clinical health records. However, utilising diverse and comprehensive sources of information is especially important when investigating less frequent patterns of medication prescribing such as antipsychotic polypharmacy (APP). This study describes and evaluates a novel method of extracting APP data from both structured and free-text fields in electronic health records (EHRs), and its use for research purposes. METHODS: Using anonymised EHRs, we identified a cohort of patients with serious mental illness (SMI) who were treated in South London and Maudsley NHS Foundation Trust mental health care services between 1 January and 30 June 2012. Information about antipsychotic co-prescribing was extracted using a combination of natural language processing and a bespoke algorithm. The validity of the data derived through this process was assessed against a manually coded gold standard to establish precision and recall. Lastly, we estimated the prevalence and patterns of antipsychotic polypharmacy. RESULTS: Individual instances of antipsychotic prescribing were detected with high precision (0.94 to 0.97) and moderate recall (0.57-0.77). We detected baseline APP (two or more antipsychotics prescribed in any 6-week window) with 0.92 precision and 0.74 recall and long-term APP (antipsychotic co-prescribing for 6 months) with 0.94 precision and 0.60 recall. Of the 7,201 SMI patients receiving active care during the observation period, 338 (4.7 %; 95 % CI 4.2-5.2) were identified as receiving long-term APP. Two second generation antipsychotics (64.8 %); and first -second generation antipsychotics were most commonly co-prescribed (32.5 %). CONCLUSIONS: These results suggest that this is a potentially practical tool for identifying polypharmacy from mental health EHRs on a large scale. Furthermore, extracted data can be used to allow researchers to characterize patterns of polypharmacy over time including different drug combinations, trends in polypharmacy prescribing, predictors of polypharmacy prescribing and the impact of polypharmacy on patient outcomes.
+AU  - Kadra, G.
+AU  - Stewart, R.
+AU  - Shetty, H.
+AU  - Jackson, R. G.
+AU  - Greenwood, M. A.
+AU  - Roberts, A.
+AU  - Chang, C. K.
+AU  - MacCabe, J. H.
+AU  - Hayes, R. D.
+DA  - 2015
+DO  - 10.1186/s12888-015-0557-z.
+KW  - eppi-reviewer4
+N1  - 21445291
+3954
+PY  - 2015
+SN  - 1471-244X (Electronic) 1471-244X (Linking)
+SP  - 166
+ST  - Extracting antipsychotic polypharmacy data from electronic health records: developing and evaluating a novel process
+T2  - BMC Psychiatry
+TI  - Extracting antipsychotic polypharmacy data from electronic health records: developing and evaluating a novel process
+VL  - 15
+ID  - 39
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Free-text medication prescriptions contain detailed instruction information that is key when preparing drug data for analysis. The objective of this study was to develop a novel model and automated text-mining method to extract detailed structured medication information from free-text prescriptions and explore their variability (e.g. optional dosages) in primary care research databases. METHODS: We introduce a prescription model that provides minimum and maximum values for dose number, frequency and interval, allowing modelling variability and flexibility within a drug prescription. We developed a text mining system that relies on rules to extract such structured information from prescription free-text dosage instructions. The system was applied to medication prescriptions from an anonymised primary care electronic record database (Clinical Practice Research Datalink, CPRD). RESULTS: We have evaluated our approach on a test set of 220 CPRD prescription free-text directions. The system achieved an overall accuracy of 91 % at the prescription level, with 97 % accuracy across the attribute levels. We then further analysed over 56,000 most common free text prescriptions from CPRD records and found that 1 in 4 has inherent variability, i.e. a choice in taking medication specified by different minimum and maximum doses, duration or frequency. CONCLUSIONS: Our approach provides an accurate, automated way of coding prescription free text information, including information about flexibility and variability within a prescription. The method allows the researcher to decide how best to prepare the prescription data for drug efficacy and safety analyses in any given setting, and test various scenarios and their impact.
+AU  - Karystianis, G.
+AU  - Sheppard, T.
+AU  - Dixon, W. G.
+AU  - Nenadic, G.
+DA  - 2016
+DO  - 10.1186/s12911-016-0255-x.
+KW  - eppi-reviewer4
+N1  - 21446797
+3838
+PY  - 2016
+SN  - 1472-6947 (Electronic) 1472-6947 (Linking)
+SP  - 18
+ST  - Modelling and extraction of variability in free-text medication prescriptions from an anonymised primary care electronic medical record research database
+T2  - BMC Med Inform Decis Mak
+TI  - Modelling and extraction of variability in free-text medication prescriptions from an anonymised primary care electronic medical record research database
+VL  - 16
+ID  - 40
+ER  - 
+
+
+TY  - JOUR
+AB  - Clinical data in electronic medical records (EMRs) are a potential source of longitudinal clinical data for research. The Electronic Medical Records and Genomics Network (eMERGE) investigates whether data captured through routine clinical care using EMRs can identify disease phenotypes with sufficient positive and negative predictive values for use in genome-wide association studies (GWAS). Using data from five different sets of EMRs, we have identified five disease phenotypes with positive predictive values of 73 to 98% and negative predictive values of 98 to 100%. Most EMRs captured key information (diagnoses, medications, laboratory tests) used to define phenotypes in a structured format. We identified natural language processing as an important tool to improve case identification rates. Efforts and incentives to increase the implementation of interoperable EMRs will markedly improve the availability of clinical data for genomics research.
+AU  - Kho, A. N.
+AU  - Pacheco, J. A.
+AU  - Peissig, P. L.
+AU  - Rasmussen, L.
+AU  - Newton, K. M.
+AU  - Weston, N.
+AU  - Crane, P. K.
+AU  - Pathak, J.
+AU  - Chute, C. G.
+AU  - Bielinski, S. J.
+AU  - Kullo, I. J.
+AU  - Li, R.
+AU  - Manolio, T. A.
+AU  - Chisholm, R. L.
+AU  - Denny, J. C.
+DA  - 2011
+DO  - 10.1126/scitranslmed.3001807.
+IS  - 79
+KW  - eppi-reviewer4
+N1  - 21445008
+5505
+PY  - 2011
+SN  - 1946-6242 (Electronic) 1946-6234 (Linking)
+SP  - 79re1
+ST  - Electronic medical records for genetic research: results of the eMERGE consortium
+T2  - Sci Transl Med
+TI  - Electronic medical records for genetic research: results of the eMERGE consortium
+VL  - 3
+ID  - 41
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Capturing accurate and machine-interpretable primary data from clinical encounters is a challenging task, yet critical to the integrity of the practice of medicine. We explore the intriguing possibility that technology can help accurately capture structured data from the clinical encounter using a combination of automated speech recognition (ASR) systems and tools for extraction of clinical meaning from narrative medical text. Our goal is to produce a displayed evolving encounter note, visible and editable (using speech) during the encounter. RESULTS: This is very ambitious, and so far we have taken only the most preliminary steps. We report a simple proof-of-concept system and the design of the more comprehensive one we are building, discussing both the engineering design and challenges encountered. Without a formal evaluation, we were encouraged by our initial results. The proof-of-concept, despite a few false positives, correctly recognized the proper category of single-and multi-word phrases in uncorrected ASR output. The more comprehensive system captures and transcribes speech and stores alternative phrase interpretations in an XML-based format used by a text-engineering framework. It does not yet use the framework to perform the language processing present in the proof-of-concept. CONCLUSION: The work here encouraged us that the goal is reachable, so we conclude with proposed next steps.Some challenging steps include acquiring a corpus of doctor-patient conversations, exploring a workable microphone setup, performing user interface research, and developing a multi-speaker version of our tools.
+AU  - Klann, J. G.
+AU  - Szolovits, P.
+DA  - 2009
+DO  - 10.1186/1472-6947-9-S1-S3.
+KW  - eppi-reviewer4
+N1  - 21446145
+5915
+PY  - 2009
+SN  - 1472-6947 (Electronic) 1472-6947 (Linking)
+SP  - S3
+ST  - An intelligent listening framework for capturing encounter notes from a doctor-patient dialog
+T2  - BMC Med Inform Decis Mak
+TI  - An intelligent listening framework for capturing encounter notes from a doctor-patient dialog
+VL  - 9 Suppl 1
+ID  - 42
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: Death certificates provide an invaluable source for cancer mortality statistics; however, this value can only be realised if accurate, quantitative data can be extracted from certificates--an aim hampered by both the volume and variable nature of certificates written in natural language. This paper proposes an automatic classification system for identifying cancer related causes of death from death certificates. METHODS: Detailed features, including terms, n-grams and SNOMED CT concepts were extracted from a collection of 447,336 death certificates. These features were used to train Support Vector Machine classifiers (one classifier for each cancer type). The classifiers were deployed in a cascaded architecture: the first level identified the presence of cancer (i.e., binary cancer/nocancer) and the second level identified the type of cancer (according to the ICD-10 classification system). A held-out test set was used to evaluate the effectiveness of the classifiers according to precision, recall and F-measure. In addition, detailed feature analysis was performed to reveal the characteristics of a successful cancer classification model. RESULTS: The system was highly effective at identifying cancer as the underlying cause of death (F-measure 0.94). The system was also effective at determining the type of cancer for common cancers (F-measure 0.7). Rare cancers, for which there was little training data, were difficult to classify accurately (F-measure 0.12). Factors influencing performance were the amount of training data and certain ambiguous cancers (e.g., those in the stomach region). The feature analysis revealed a combination of features were important for cancer type classification, with SNOMED CT concept and oncology specific morphology features proving the most valuable. CONCLUSION: The system proposed in this study provides automatic identification and characterisation of cancers from large collections of free-text death certificates. This allows organisations such as Cancer Registries to monitor and report on cancer mortality in a timely and accurate manner. In addition, the methods and findings are generally applicable beyond cancer classification and to other sources of medical text besides death certificates.
+AU  - Koopman, B.
+AU  - Zuccon, G.
+AU  - Nguyen, A.
+AU  - Bergheim, A.
+AU  - Grayson, N.
+DA  - 2015
+DO  - 10.1016/j.ijmedinf.2015.08.004. Epub 2015 Aug 13.
+IS  - 11
+KW  - eppi-reviewer4
+N1  - 21443762
+3908
+PY  - 2015
+SN  - 1872-8243 (Electronic) 1386-5056 (Linking)
+SP  - 956-65
+ST  - Automatic ICD-10 classification of cancers from free-text death certificates
+T2  - Int J Med Inform
+TI  - Automatic ICD-10 classification of cancers from free-text death certificates
+VL  - 84
+ID  - 43
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: Drug named entity recognition (NER) is a critical step for complex biomedical NLP tasks such as the extraction of pharmacogenomic, pharmacodynamic and pharmacokinetic parameters. Large quantities of high quality training data are almost always a prerequisite for employing supervised machine-learning techniques to achieve high classification performance. However, the human labour needed to produce and maintain such resources is a significant limitation. In this study, we improve the performance of drug NER without relying exclusively on manual annotations. METHODS: We perform drug NER using either a small gold-standard corpus (120 abstracts) or no corpus at all. In our approach, we develop a voting system to combine a number of heterogeneous models, based on dictionary knowledge, gold-standard corpora and silver annotations, to enhance performance. To improve recall, we employed genetic programming to evolve 11 regular-expression patterns that capture common drug suffixes and used them as an extra means for recognition. MATERIALS: Our approach uses a dictionary of drug names, i.e. DrugBank, a small manually annotated corpus, i.e. the pharmacokinetic corpus, and a part of the UKPMC database, as raw biomedical text. Gold-standard and silver annotated data are used to train maximum entropy and multinomial logistic regression classifiers. RESULTS: Aggregating drug NER methods, based on gold-standard annotations, dictionary knowledge and patterns, improved the performance on models trained on gold-standard annotations, only, achieving a maximum F-score of 95%. In addition, combining models trained on silver annotations, dictionary knowledge and patterns are shown to achieve comparable performance to models trained exclusively on gold-standard data. The main reason appears to be the morphological similarities shared among drug names. CONCLUSION: We conclude that gold-standard data are not a hard requirement for drug NER. Combining heterogeneous models build on dictionary knowledge can achieve similar or comparable classification performance with that of the best performing model trained on gold-standard annotations.
+AU  - Korkontzelos, I.
+AU  - Piliouras, D.
+AU  - Dowsey, A. W.
+AU  - Ananiadou, S.
+DA  - 2015
+DO  - 10.1016/j.artmed.2015.05.007. Epub 2015 Jun 17.
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21443893
+3983
+PY  - 2015
+SN  - 1873-2860 (Electronic) 0933-3657 (Linking)
+SP  - 145-53
+ST  - Boosting drug named entity recognition using an aggregate classifier
+T2  - Artif Intell Med
+TI  - Boosting drug named entity recognition using an aggregate classifier
+VL  - 65
+ID  - 44
+ER  - 
+
+
+TY  - JOUR
+AB  - Controlled clinical trials are usually supported with an in-front data aggregation system, which supports the storage of relevant information according to the trial context within a highly structured environment. In contrast to the documentation of clinical trials, daily routine documentation has many characteristics that influence data quality. One such characteristic is the use of non-standardized text, which is an indispensable part of information representation in clinical information systems. Based on a cohort study we highlight challenges for mining electronic health records targeting free text entry fields within semi-structured data sources. Our prototypical information extraction system achieved an F-measure of 0.91 (precision=0.90, recall=0.93) for the training set and an F-measure of 0.90 (precision=0.89, recall=0.92) for the test set. We analyze the obtained results in detail and highlight challenges and future directions for the secondary use of routine data in general.
+AU  - Kreuzthaler, M.
+AU  - Schulz, S.
+AU  - Berghold, A.
+DA  - 2015
+DO  - 10.1016/j.jbi.2014.10.010. Epub 2014 Nov 21.
+KW  - eppi-reviewer4
+N1  - 21447956
+4198
+PY  - 2015
+SN  - 1532-0480 (Electronic) 1532-0464 (Linking)
+SP  - 188-95
+ST  - Secondary use of electronic health records for building cohort studies through top-down information extraction
+T2  - J Biomed Inform
+TI  - Secondary use of electronic health records for building cohort studies through top-down information extraction
+VL  - 53
+ID  - 45
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: Research on publication trends in journal articles on sleep disorders (SDs) and the associated methodologies by using text mining has been limited. The present study involved text mining for terms to determine the publication trends in sleep-related journal articles published during 2000-2013 and to identify associations between SD and methodology terms as well as conducting statistical analyses of the text mining findings. METHODS: SD and methodology terms were extracted from 3,720 sleep-related journal articles in the PubMed database by using MetaMap. The extracted data set was analyzed using hierarchical cluster analyses and adjusted logistic regression models to investigate publication trends and associations between SD and methodology terms. RESULTS: MetaMap had a text mining precision, recall, and false positive rate of 0.70, 0.77, and 11.51%, respectively. The most common SD term was breathing-related sleep disorder, whereas narcolepsy was the least common. Cluster analyses showed similar methodology clusters for each SD term, except narcolepsy. The logistic regression models showed an increasing prevalence of insomnia, parasomnia, and other sleep disorders but a decreasing prevalence of breathing-related sleep disorder during 2000-2013. Different SD terms were positively associated with different methodology terms regarding research design terms, measure terms, and analysis terms. CONCLUSION: Insomnia-, parasomnia-, and other sleep disorder-related articles showed an increasing publication trend, whereas those related to breathing-related sleep disorder showed a decreasing trend. Furthermore, experimental studies more commonly focused on hypersomnia and other SDs and less commonly on insomnia, breathing-related sleep disorder, narcolepsy, and parasomnia. Thus, text mining may facilitate the exploration of the publication trends in SDs and the associated methodologies.
+AU  - Lam, C.
+AU  - Lai, F. C.
+AU  - Wang, C. H.
+AU  - Lai, M. H.
+AU  - Hsu, N.
+AU  - Chung, M. H.
+DA  - 2016
+DO  - 10.1371/journal.pone.0156031. eCollection 2016.
+IS  - 5
+KW  - eppi-reviewer4
+N1  - 21448381
+3825
+PY  - 2016
+SN  - 1932-6203 (Electronic) 1932-6203 (Linking)
+SP  - e0156031
+ST  - Text Mining of Journal Articles for Sleep Disorder Terminologies
+T2  - PLoS One
+TI  - Text Mining of Journal Articles for Sleep Disorder Terminologies
+VL  - 11
+ID  - 46
+ER  - 
+
+
+TY  - JOUR
+AB  - The prevalence of electronic medical record (EMR) systems has made mass-screening for clinical trials viable through secondary uses of clinical data, which often exist in both structured and free text formats. The tradeoffs of using information in either data format for clinical trials screening are understudied. This paper compares the results of clinical trial eligibility queries over ICD9-encoded diagnoses and NLP-processed textual discharge summaries. The strengths and weaknesses of both data sources are summarized along the following dimensions: information completeness, expressiveness, code granularity, and accuracy of temporal information. We conclude that NLP-processed patient reports supplement important information for eligibility screening and should be used in combination with structured data.
+AU  - Li, L.
+AU  - Chase, H. S.
+AU  - Patel, C. O.
+AU  - Friedman, C.
+AU  - Weng, C.
+DA  - 2008
+KW  - eppi-reviewer4
+N1  - 21444217
+6168
+Li, Li Chase, Herbert S Patel, Chintan O Friedman, Carol Weng, Chunhua LM007659/LM/NLM NIH HHS/United States LM00865/LM/NLM NIH HHS/United States LM06910/LM/NLM NIH HHS/United States UL1 RR024156/RR/NCRR NIH HHS/United States Comparative Study Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2008 Nov 6:404-8.
+PY  - 2008
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 404-8
+ST  - Comparing ICD9-encoded diagnoses and NLP-processed discharge summaries for clinical trials pre-screening: a case study
+T2  - AMIA Annu Symp Proc
+TI  - Comparing ICD9-encoded diagnoses and NLP-processed discharge summaries for clinical trials pre-screening: a case study
+ID  - 47
+ER  - 
+
+
+TY  - JOUR
+AB  - Background: In this study we implemented and developed state-of-the-art machine learning (ML) and natural language processing (NLP) technologies and built a computerized algorithm for medication reconciliation. Our specific aims are: (1) to develop a computerized algorithm for medication discrepancy detection between patients' discharge prescriptions (structured data) and medications documented in free-text clinical notes (unstructured data); and (2) to assess the performance of the algorithm on real-world medication reconciliation data. Methods: We collected clinical notes and discharge prescription lists for all 271 patients enrolled in the Complex Care Medical Home Program at Cincinnati Children's Hospital Medical Center between 1/1/2010 and 12/31/2013. A double-annotated, gold-standard set of medication reconciliation data was created for this collection. We then developed a hybrid algorithm consisting of three processes: (1) a ML algorithm to identify medication entities from clinical notes, (2) a rule-based method to link medication names with their attributes, and (3) a NLP-based, hybrid approach to match medications with structured prescriptions in order to detect medication discrepancies. The performance was validated on the gold-standard medication reconciliation data, where precision (P), recall (R), F-value (F) and workload were assessed. Results: The hybrid algorithm achieved 95.0%/91.6%/93.3% of P/R/F on medication entity detection and 98.7%/99.4%/99.1% of P/R/F on attribute linkage. The medication matching achieved 92.4%/90.7%/91.5% (P/R/F) on identifying matched medications in the gold-standard and 88.6%/82.5%/85.5% (P/R/F) on discrepant medications. By combining all processes, the algorithm achieved 92.4%/90.7%/91.5% (P/R/F) and 71.5%/65.2%/68.2% (P/R/F) on identifying the matched and the discrepant medications, respectively. The error analysis on algorithm outputs identified challenges to be addressed in order to improve medication discrepancy detection. Conclusion: By leveraging ML and NLP technologies, an end-to-end, computerized algorithm achieves promising outcome in reconciling medications between clinical notes and discharge prescriptions.
+AU  - Li, Q.
+AU  - Spooner, S. A.
+AU  - Kaiser, M.
+AU  - Lingren, N.
+AU  - Robbins, J.
+AU  - Lingren, T.
+AU  - Tang, H. X.
+AU  - Solti, I.
+AU  - Ni, Y. Z.
+DA  - 2015
+KW  - eppi-reviewer4
+N1  - 21445051
+7923
+Li, Qi Spooner, Stephen Andrew Kaiser, Megan Lingren, Nataline Robbins, Jessica Lingren, Todd Tang, Huaxiu Solti, Imre Ni, Yizhao
+PY  - 2015
+SN  - 1472-6947
+ST  - An end-to-end hybrid algorithm for automated medication discrepancy detection
+T2  - Bmc Medical Informatics and Decision Making
+TI  - An end-to-end hybrid algorithm for automated medication discrepancy detection
+UR  - <Go to ISI>://WOS:000354245800001
+VL  - 15
+ID  - 48
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Typically, algorithms to classify phenotypes using electronic medical record (EMR) data were developed to perform well in a specific patient population. There is increasing interest in analyses which can allow study of a specific outcome across different diseases. Such a study in the EMR would require an algorithm that can be applied across different patient populations. Our objectives were: (1) to develop an algorithm that would enable the study of coronary artery disease (CAD) across diverse patient populations; (2) to study the impact of adding narrative data extracted using natural language processing (NLP) in the algorithm. Additionally, we demonstrate how to implement CAD algorithm to compare risk across 3 chronic diseases in a preliminary study. METHODS AND RESULTS: We studied 3 established EMR based patient cohorts: diabetes mellitus (DM, n = 65,099), inflammatory bowel disease (IBD, n = 10,974), and rheumatoid arthritis (RA, n = 4,453) from two large academic centers. We developed a CAD algorithm using NLP in addition to structured data (e.g. ICD9 codes) in the RA cohort and validated it in the DM and IBD cohorts. The CAD algorithm using NLP in addition to structured data achieved specificity >95% with a positive predictive value (PPV) 90% in the training (RA) and validation sets (IBD and DM). The addition of NLP data improved the sensitivity for all cohorts, classifying an additional 17% of CAD subjects in IBD and 10% in DM while maintaining PPV of 90%. The algorithm classified 16,488 DM (26.1%), 457 IBD (4.2%), and 245 RA (5.0%) with CAD. In a cross-sectional analysis, CAD risk was 63% lower in RA and 68% lower in IBD compared to DM (p<0.0001) after adjusting for traditional cardiovascular risk factors. CONCLUSIONS: We developed and validated a CAD algorithm that performed well across diverse patient populations. The addition of NLP into the CAD algorithm improved the sensitivity of the algorithm, particularly in cohorts where the prevalence of CAD was low. Preliminary data suggest that CAD risk was significantly lower in RA and IBD compared to DM.
+AU  - Liao, K. P.
+AU  - Ananthakrishnan, A. N.
+AU  - Kumar, V.
+AU  - Xia, Z.
+AU  - Cagan, A.
+AU  - Gainer, V. S.
+AU  - Goryachev, S.
+AU  - Chen, P.
+AU  - Savova, G. K.
+AU  - Agniel, D.
+AU  - Churchill, S.
+AU  - Lee, J.
+AU  - Murphy, S. N.
+AU  - Plenge, R. M.
+AU  - Szolovits, P.
+AU  - Kohane, I.
+AU  - Shaw, S. Y.
+AU  - Karlson, E. W.
+AU  - Cai, T.
+DA  - 2015
+DO  - 10.1371/journal.pone.0136651. eCollection 2015.
+IS  - 8
+KW  - eppi-reviewer4
+N1  - 21446596
+3912
+PY  - 2015
+SN  - 1932-6203 (Electronic) 1932-6203 (Linking)
+SP  - e0136651
+ST  - Methods to Develop an Electronic Medical Record Phenotype Algorithm to Compare the Risk of Coronary Artery Disease across 3 Chronic Disease Cohorts
+T2  - PLoS One
+TI  - Methods to Develop an Electronic Medical Record Phenotype Algorithm to Compare the Risk of Coronary Artery Disease across 3 Chronic Disease Cohorts
+VL  - 10
+ID  - 49
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVES: To improve the accuracy of mining structured and unstructured components of the electronic medical record (EMR) by adding temporal features to automatically identify patients with rheumatoid arthritis (RA) with methotrexate-induced liver transaminase abnormalities. MATERIALS AND METHODS: Codified information and a string-matching algorithm were applied to a RA cohort of 5903 patients from Partners HealthCare to select 1130 patients with potential liver toxicity. Supervised machine learning was applied as our key method. For features, Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) was used to extract standard vocabulary from relevant sections of the unstructured clinical narrative. Temporal features were further extracted to assess the temporal relevance of event mentions with regard to the date of transaminase abnormality. All features were encapsulated in a 3-month-long episode for classification. Results were summarized at patient level in a training set (N=480 patients) and evaluated against a test set (N=120 patients). RESULTS: The system achieved positive predictive value (PPV) 0.756, sensitivity 0.919, F1 score 0.829 on the test set, which was significantly better than the best baseline system (PPV 0.590, sensitivity 0.703, F1 score 0.642). Our innovations, which included framing the phenotype problem as an episode-level classification task, and adding temporal information, all proved highly effective. CONCLUSIONS: Automated methotrexate-induced liver toxicity phenotype discovery for patients with RA based on structured and unstructured information in the EMR shows accurate results. Our work demonstrates that adding temporal features significantly improved classification results.
+AU  - Lin, C.
+AU  - Karlson, E. W.
+AU  - Dligach, D.
+AU  - Ramirez, M. P.
+AU  - Miller, T. A.
+AU  - Mo, H.
+AU  - Braggs, N. S.
+AU  - Cagan, A.
+AU  - Gainer, V.
+AU  - Denny, J. C.
+AU  - Savova, G. K.
+DA  - 2015
+DO  - 10.1136/amiajnl-2014-002642. Epub 2014 Oct 25.
+IS  - e1
+KW  - eppi-reviewer4
+N1  - 21443763
+4232
+PY  - 2015
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - e151-61
+ST  - Automatic identification of methotrexate-induced liver toxicity in patients with rheumatoid arthritis from the electronic medical record
+T2  - J Am Med Inform Assoc
+TI  - Automatic identification of methotrexate-induced liver toxicity in patients with rheumatoid arthritis from the electronic medical record
+VL  - 22
+ID  - 51
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND AND OBJECTIVE: The importance of data standards when integrating clinical research data has been recognized. The common data element (CDE) is a consensus-based data element for data harmonization and sharing between clinical researchers, it can support data standards adoption and mapping. However, the lack of a suitable methodology has become a barrier to data standard adoption. Our aim was to demonstrate an approach that allowed clinical researchers to design electronic case report forms (eCRFs) that complied with the data standard. METHODS: We used a multi-technique approach, including information retrieval, natural language processing and an ontology-based knowledgebase to facilitate data standard adoption using the eCRF design. The approach took research questions as query texts with the aim of retrieving and associating relevant CDEs with the research questions. RESULTS: The approach was implemented using a CDE-based eCRF builder, which was evaluated using CDE- related questions from CRFs used in the Parkinson Disease Biomarker Program, as well as CDE-unrelated questions from a technique support website. Our approach had a precision of 0.84, a recall of 0.80, a F-measure of 0.82 and an error of 0.31. Using the 303 testing CDE-related questions, our approach responded and provided suggested CDEs for 88.8% (269/303) of the study questions with a 90.3% accuracy (243/269). The reason for any missed and failed responses was also analyzed. CONCLUSION: This study demonstrates an approach that helps to cross the barrier that inhibits data standard adoption in eCRF building and our evaluation reveals the approach has satisfactory performance. Our CDE-based form builder provides an alternative perspective regarding data standard compliant eCRF design.
+AU  - Lin, C. H.
+AU  - Wu, N. Y.
+AU  - Liou, D. M.
+DA  - 2015
+DO  - 10.1016/j.jbi.2014.08.013. Epub 2014 Sep 6.
+KW  - eppi-reviewer4
+N1  - 21446903
+4296
+PY  - 2015
+SN  - 1532-0480 (Electronic) 1532-0464 (Linking)
+SP  - 49-57
+ST  - A multi-technique approach to bridge electronic case report form design and data standard adoption
+T2  - J Biomed Inform
+TI  - A multi-technique approach to bridge electronic case report form design and data standard adoption
+VL  - 53
+ID  - 50
+ER  - 
+
+
+TY  - JOUR
+AB  - A semantic lexicon which associates words and phrases in text to concepts is critical for extracting and encoding clinical information in free text and therefore achieving semantic interoperability between structured and unstructured data in Electronic Health Records (EHRs). Directly using existing standard terminologies may have limited coverage with respect to concepts and their corresponding mentions in text. In this paper, we analyze how tokens and phrases in a large corpus distribute and how well the UMLS captures the semantics. A corpus-driven semantic lexicon, MedLex, has been constructed where the semantics is based on the UMLS assisted with variants mined and usage information gathered from clinical text. The detailed corpus analysis of tokens, chunks, and concept mentions shows the UMLS is an invaluable source for natural language processing. Increasing the semantic coverage of tokens provides a good foundation in capturing clinical information comprehensively. The study also yields some insights in developing practical NLP systems.
+AU  - Liu, H.
+AU  - Wu, S. T.
+AU  - Li, D.
+AU  - Jonnalagadda, S.
+AU  - Sohn, S.
+AU  - Wagholikar, K.
+AU  - Haug, P. J.
+AU  - Huff, S. M.
+AU  - Chute, C. G.
+DA  - 2012
+KW  - eppi-reviewer4
+N1  - 21448468
+4928
+Liu, Hongfang Wu, Stephen T Li, Dingcheng Jonnalagadda, Siddhartha Sohn, Sunghwan Wagholikar, Kavishwar Haug, Peter J Huff, Stanley M Chute, Christopher G R01 GM102282/GM/NIGMS NIH HHS/United States R01 LM009959/LM/NLM NIH HHS/United States R01LM009959A1/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural Research Support, U.S. Gov't, Non-P.H.S. United States AMIA Annu Symp Proc. 2012;2012:568-76. Epub 2012 Nov 3.
+PY  - 2012
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 568-76
+ST  - Towards a semantic lexicon for clinical natural language processing
+T2  - AMIA Annu Symp Proc
+TI  - Towards a semantic lexicon for clinical natural language processing
+VL  - 2012
+ID  - 52
+ER  - 
+
+
+TY  - JOUR
+AB  - To address the problem of extracting structured information from pathology reports for research purposes in the STRIDE Clinical Data Warehouse, we adapted the ChartIndex Medical Language Processing system to automatically identify and map anatomic and diagnostic noun phrases found in full-text pathology reports to SNOMED CT concept descriptors. An evaluation of the system's performance showed a positive predictive value for anatomic concepts of 92.3% and positive predictive value for diagnostic concepts of 84.4%. The experiment also suggested strategies for improving ChartIndex's performance coding pathology reports.
+AU  - Lowe, H. J.
+AU  - Huang, Y.
+AU  - Regula, D. P.
+DA  - 2009
+KW  - eppi-reviewer4
+N1  - 21448655
+6134
+Lowe, Henry J Huang, Yang Regula, Donald P United States AMIA Annu Symp Proc. 2009 Nov 14;2009:386-90.
+PY  - 2009
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 386-90
+ST  - Using a statistical natural language Parser augmented with the UMLS specialist lexicon to assign SNOMED CT codes to anatomic sites and pathologic diagnoses in full text pathology reports
+T2  - AMIA Annu Symp Proc
+TI  - Using a statistical natural language Parser augmented with the UMLS specialist lexicon to assign SNOMED CT codes to anatomic sites and pathologic diagnoses in full text pathology reports
+VL  - 2009
+ID  - 53
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: We address the task of extracting information from free-text pathology reports, focusing on staging information encoded by the TNM (tumour-node-metastases) and ACPS (Australian clinico-pathological stage) systems. Staging information is critical for diagnosing the extent of cancer in a patient and for planning individualised treatment. Extracting such information into more structured form saves time, improves reporting, and underpins the potential for automated decision support. METHODS AND MATERIAL: We investigate the portability of a text mining model constructed from records from one health centre, by applying it directly to the extraction task over a set of records from a different health centre, with different reporting narrative characteristics. Other than a simple normalisation step on features associated with target labels, we apply the models from one system directly to the other. RESULTS: The best F-scores for in-hospital experiments are 81%, 85%, and 94% (for staging T, N, and M respectively), while best cross-hospital F-scores reach 84%, 81%, and 91% for the same respective categories. CONCLUSIONS: Our performance results compare favourably to the best levels reported in the literature, and--most relevant to our aim here--the cross-corpus results demonstrate the portability of the models we developed.
+AU  - Martinez, D.
+AU  - Pitson, G.
+AU  - MacKinlay, A.
+AU  - Cavedon, L.
+DA  - 2014
+DO  - 10.1016/j.artmed.2014.06.002. Epub 2014 Jun 21.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21444451
+4389
+PY  - 2014
+SN  - 1873-2860 (Electronic) 0933-3657 (Linking)
+SP  - 11-21
+ST  - Cross-hospital portability of information extraction of cancer staging information
+T2  - Artif Intell Med
+TI  - Cross-hospital portability of information extraction of cancer staging information
+VL  - 62
+ID  - 54
+ER  - 
+
+
+TY  - JOUR
+AB  - Biomedical Natural Language Processing (BioNLP) attempts to capture biomedical phenomena from texts by extracting relations between biomedical entities (i.e. proteins and genes). Traditionally, only binary relations have been extracted from large numbers of published papers. Recently, more complex relations (biomolecular events) have also been extracted. Such events may include several entities or other relations. To evaluate the performance of the text mining systems, several shared task challenges have been arranged for the BioNLP community. With a common and consistent task setting, the BioNLP'09 shared task evaluated complex biomolecular events such as binding and regulation.Finding these events automatically is important in order to improve biomedical event extraction systems. In the present paper, we propose an automatic event extraction system, which contains a model for complex events, by solving a classification problem with rich features. The main contributions of the present paper are: (1) the proposal of an effective bio-event detection method using machine learning, (2) provision of a high-performance event extraction system, and (3) the execution of a quantitative error analysis. The proposed complex (binding and regulation) event detector outperforms the best system from the BioNLP'09 shared task challenge.
+AU  - Miwa, M.
+AU  - Saetre, R.
+AU  - Kim, J. D.
+AU  - Tsujii, J.
+DA  - 2010
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21445185
+5830
+Miwa, Makoto Saetre, Rune Kim, Jin-Dong Tsujii, Jun'ichi Evaluation Studies Research Support, Non-U.S. Gov't England J Bioinform Comput Biol. 2010 Feb;8(1):131-46.
+PY  - 2010
+SN  - 1757-6334 (Electronic) 0219-7200 (Linking)
+SP  - 131-46
+ST  - Event extraction with complex event classification using rich features
+T2  - J Bioinform Comput Biol
+TI  - Event extraction with complex event classification using rich features
+VL  - 8
+ID  - 55
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: The authors used the i2b2 Medication Extraction Challenge to evaluate their entity extraction methods, contribute to the generation of a publicly available collection of annotated clinical notes, and start developing methods for ontology-based reasoning using structured information generated from the unstructured clinical narrative. DESIGN: Extraction of salient features of medication orders from the text of de-identified hospital discharge summaries was addressed with a knowledge-based approach using simple rules and lookup lists. The entity recognition tool, MetaMap, was combined with dose, frequency, and duration modules specifically developed for the Challenge as well as a prototype module for reason identification. MEASUREMENTS: Evaluation metrics and corresponding results were provided by the Challenge organizers. RESULTS: The results indicate that robust rule-based tools achieve satisfactory results in extraction of simple elements of medication orders, but more sophisticated methods are needed for identification of reasons for the orders and durations. LIMITATIONS: Owing to the time constraints and nature of the Challenge, some obvious follow-on analysis has not been completed yet. CONCLUSIONS: The authors plan to integrate the new modules with MetaMap to enhance its accuracy. This integration effort will provide guidance in retargeting existing tools for better processing of clinical text.
+AU  - Mork, J. G.
+AU  - Bodenreider, O.
+AU  - Demner-Fushman, D.
+AU  - Dogan, R. I.
+AU  - Lang, F. M.
+AU  - Lu, Z.
+AU  - Neveol, A.
+AU  - Peters, L.
+AU  - Shooshan, S. E.
+AU  - Aronson, A. R.
+DA  - 2010
+DO  - 10.1136/jamia.2010.003970.
+IS  - 5
+KW  - eppi-reviewer4
+N1  - 21445302
+5690
+PY  - 2010
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - 536-9
+ST  - Extracting Rx information from clinical narrative
+T2  - J Am Med Inform Assoc
+TI  - Extracting Rx information from clinical narrative
+VL  - 17
+ID  - 56
+ER  - 
+
+
+TY  - JOUR
+AB  - Electronic clinical documentation can be useful for activities such as public health surveillance, quality improvement, and research, but existing methods of de-identification may not provide sufficient protection of patient data. The general-purpose natural language processor MedLEE retains medical concepts while excluding the remaining text so, in addition to processing text into structured data, it may be able provide a secondary benefit of de-identification. Without modifying the system, the authors tested the ability of MedLEE to remove protected health information (PHI) by comparing 100 outpatient clinical notes with the corresponding XML-tagged output. Of 809 instances of PHI, 26 (3.2%) were detected in output as a result of processing and identification errors. However, PHI in the output was highly transformed, much appearing as normalized terms for medical concepts, potentially making re-identification more difficult. The MedLEE processor may be a good enhancement to other de-identification systems, both removing PHI and providing coded data from clinical text.
+AU  - Morrison, F. P.
+AU  - Li, L.
+AU  - Lai, A. M.
+AU  - Hripcsak, G.
+DA  - 2009
+DO  - 10.1197/jamia.M2862. Epub 2008 Oct 24.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21447786
+6186
+PY  - 2009
+SN  - 1067-5027 (Print) 1067-5027 (Linking)
+SP  - 37-9
+ST  - Repurposing the clinical record: can an existing natural language processing system de-identify clinical notes?
+T2  - J Am Med Inform Assoc
+TI  - Repurposing the clinical record: can an existing natural language processing system de-identify clinical notes?
+VL  - 16
+ID  - 57
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Bodyweight related measures (weight, height, BMI, abdominal circumference) are extremely important for clinical care, research and quality improvement. These and other vitals signs data are frequently missing from structured tables of electronic health records. However they are often recorded as text within clinical notes. In this project we sought to develop and validate a learning algorithm that would extract bodyweight related measures from clinical notes in the Veterans Administration (VA) Electronic Health Record to complement the structured data used in clinical research. METHODS: We developed the Regular Expression Discovery Extractor (REDEx), a supervised learning algorithm that generates regular expressions from a training set. The regular expressions generated by REDEx were then used to extract the numerical values of interest. To train the algorithm we created a corpus of 268 outpatient primary care notes that were annotated by two annotators. This annotation served to develop the annotation process and identify terms associated with bodyweight related measures for training the supervised learning algorithm. Snippets from an additional 300 outpatient primary care notes were subsequently annotated independently by two reviewers to complete the training set. Inter-annotator agreement was calculated. REDEx was applied to a separate test set of 3561 notes to generate a dataset of weights extracted from text. We estimated the number of unique individuals who would otherwise not have bodyweight related measures recorded in the CDW and the number of additional bodyweight related measures that would be additionally captured. RESULTS: REDEx's performance was: accuracy=98.3%, precision=98.8%, recall=98.3%, F=98.5%. In the dataset of weights from 3561 notes, 7.7% of notes contained bodyweight related measures that were not available as structured data. In addition 2 additional bodyweight related measures were identified per individual per year. CONCLUSION: Bodyweight related measures are frequently stored as text in clinical notes. A supervised learning algorithm can be used to extract this data. Implications for clinical care, epidemiology, and quality improvement efforts are discussed.
+AU  - Murtaugh, M. A.
+AU  - Gibson, B. S.
+AU  - Redd, D.
+AU  - Zeng-Treitler, Q.
+DA  - 2015
+DO  - 10.1016/j.jbi.2015.02.009. Epub 2015 Mar 5.
+KW  - eppi-reviewer4
+N1  - 21447733
+4090
+PY  - 2015
+SN  - 1532-0480 (Electronic) 1532-0464 (Linking)
+SP  - 186-90
+ST  - Regular expression-based learning to extract bodyweight values from clinical notes
+T2  - J Biomed Inform
+TI  - Regular expression-based learning to extract bodyweight values from clinical notes
+VL  - 54
+ID  - 58
+ER  - 
+
+
+TY  - BOOK
+A2  - Ortuno, F.
+A2  - Rojas, I.
+AB  - The staging in breast cancer is one of the most important prognostic factors. However, the complex coding TNM criteria, which includes clinical and pathological components, the existence of different versions of TNM classification guides over time, and the variability of the source used to obtain data, makes the manual collection of TNM staging in free text be variable and imprecise. The aim of this project is to develop a tool based on artificial intelligence that allows the collection of tumor size (T) staging data for breast cancer automatically, reducing the variability. Our approach, based on two steps, starts with the detection and extraction of tumor's size characteristics in free text, using a simple natural language processor. Secondly, based on the data extracted, we applied different data mining algorithms for the T classification such as the J48 classifier tree, LADtree and NaiveBayes. Then, structured TNM reports for patients are created.
+AU  - Otal, R. G.
+AU  - Guerra, J. L. L.
+AU  - Calderon, C. L. P.
+AU  - Garcia, A. M.
+AU  - Gironzini, V. S.
+AU  - Serrano, J. P.
+AU  - Conde, A. M.
+AU  - Gordillo, M. J. O.
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21443608
+8658
+Gonzalez Otal, R. Lopez Guerra, J. L. Parra Calderon, C. L. Martinez Garcia, A. Suarez Gironzini, V. Peinado Serrano, J. Moreno Conde, A. Ortiz Gordillo, M. J. International Work-Conference on Bioinformatics and Biomedical Engineering MAR 18-20, 2013 Univ Grenada, Fac Sci, Granada, SPAIN Univ Grenada, Spanish Chapter IEEE Computat Intelligence Soc, SBV Improver, Illumina, e Hlth Business Dev Bull Espana S A, Univ Grenada, Fac Sci, Univ Grenada, Dept Comp Architecture & Comp Technol, Univ Granada, CITIC UGR Parra Calderon, Carlos Luis/C-9315-2015; Moreno-Conde, Alberto/C-9358-2015 Parra Calderon, Carlos Luis/0000-0003-2609-575X;
+PY  - 2013
+SN  - 978-84-15814-13-9
+SP  - 499-500
+ST  - Application of Artificial Intelligence in Tumors Sizing Classification for Breast Cancer
+T2  - Proceedings Iwbbio 2013: International Work-Conference on Bioinformatics and Biomedical Engineering
+TI  - Application of Artificial Intelligence in Tumors Sizing Classification for Breast Cancer
+UR  - <Go to ISI>://WOS:000322416100082
+ID  - 59
+ER  - 
+
+
+TY  - JOUR
+AB  - RESEARCH OBJECTIVE: To develop scalable informatics infrastructure for normalization of both structured and unstructured electronic health record (EHR) data into a unified, concept-based model for high-throughput phenotype extraction. MATERIALS AND METHODS: Software tools and applications were developed to extract information from EHRs. Representative and convenience samples of both structured and unstructured data from two EHR systems-Mayo Clinic and Intermountain Healthcare-were used for development and validation. Extracted information was standardized and normalized to meaningful use (MU) conformant terminology and value set standards using Clinical Element Models (CEMs). These resources were used to demonstrate semi-automatic execution of MU clinical-quality measures modeled using the Quality Data Model (QDM) and an open-source rules engine. RESULTS: Using CEMs and open-source natural language processing and terminology services engines-namely, Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) and Common Terminology Services (CTS2)-we developed a data-normalization platform that ensures data security, end-to-end connectivity, and reliable data flow within and across institutions. We demonstrated the applicability of this platform by executing a QDM-based MU quality measure that determines the percentage of patients between 18 and 75 years with diabetes whose most recent low-density lipoprotein cholesterol test result during the measurement year was <100 mg/dL on a randomly selected cohort of 273 Mayo Clinic patients. The platform identified 21 and 18 patients for the denominator and numerator of the quality measure, respectively. Validation results indicate that all identified patients meet the QDM-based criteria. CONCLUSIONS: End-to-end automated systems for extracting clinical information from diverse EHR systems require extensive use of standardized vocabularies and terminologies, as well as robust information models for storing, discovering, and processing that information. This study demonstrates the application of modular and open-source resources for enabling secondary use of EHR data through normalization into standards-based, comparable, and consistent format for high-throughput phenotyping to identify patient cohorts.
+AU  - Pathak, J.
+AU  - Bailey, K. R.
+AU  - Beebe, C. E.
+AU  - Bethard, S.
+AU  - Carrell, D. C.
+AU  - Chen, P. J.
+AU  - Dligach, D.
+AU  - Endle, C. M.
+AU  - Hart, L. A.
+AU  - Haug, P. J.
+AU  - Huff, S. M.
+AU  - Kaggal, V. C.
+AU  - Li, D.
+AU  - Liu, H.
+AU  - Marchant, K.
+AU  - Masanz, J.
+AU  - Miller, T.
+AU  - Oniki, T. A.
+AU  - Palmer, M.
+AU  - Peterson, K. J.
+AU  - Rea, S.
+AU  - Savova, G. K.
+AU  - Stancl, C. R.
+AU  - Sohn, S.
+AU  - Solbrig, H. R.
+AU  - Suesse, D. B.
+AU  - Tao, C.
+AU  - Taylor, D. P.
+AU  - Westberg, L.
+AU  - Wu, S.
+AU  - Zhuo, N.
+AU  - Chute, C. G.
+DA  - 2013
+DO  - 10.1136/amiajnl-2013-001939. Epub 2013 Nov 4.
+IS  - e2
+KW  - eppi-reviewer4
+N1  - 21447058
+4645
+PY  - 2013
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - e341-8
+ST  - Normalization and standardization of electronic health records for high-throughput phenotyping: the SHARPn consortium
+T2  - J Am Med Inform Assoc
+TI  - Normalization and standardization of electronic health records for high-throughput phenotyping: the SHARPn consortium
+VL  - 20
+ID  - 61
+ER  - 
+
+
+TY  - JOUR
+AB  - RxNorm and NDF-RT published by the National Library of Medicine (NLM) and Veterans Affairs (VA), respectively, are two publicly available federal medication terminologies. In this study, we evaluate the applicability of RxNorm and National Drug File-Reference Terminology (NDF-RT) for extraction and classification of medication data retrieved using structured querying and natural language processing techniques from electronic health records at two different medical centers within the Rochester Epidemiology Project (REP). Specifically, we explore how mappings between RxNorm concept codes and NDF-RT drug classes can be leveraged for hierarchical organization and grouping of REP medication data, identify gaps and coverage issues, and analyze the recently released NLM's NDF-RT Web service API. Our study concludes that RxNorm and NDF-RT can be applied together for classification of medication extracted from multiple EHR systems, although several issues and challenges remain to be addressed. We further conclude that the Web service APIs developed by the NLM provide useful functionalities for such activities.
+AU  - Pathak, J.
+AU  - Murphy, S. P.
+AU  - Willaert, B. N.
+AU  - Kremers, H. M.
+AU  - Yawn, B. P.
+AU  - Rocca, W. A.
+AU  - Chute, C. G.
+DA  - 2011
+KW  - eppi-reviewer4
+N1  - 21448704
+5301
+Pathak, Jyotishman Murphy, Sean P Willaert, Brian N Kremers, Hilal M Yawn, Barbara P Rocca, Walter A Chute, Christopher G R01 AG034676/AG/NIA NIH HHS/United States Research Support, Non-U.S. Gov't United States AMIA Annu Symp Proc. 2011;2011:1089-98. Epub 2011 Oct 22.
+PY  - 2011
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1089-98
+ST  - Using RxNorm and NDF-RT to classify medication data extracted from electronic health records: experiences from the Rochester Epidemiology Project
+T2  - AMIA Annu Symp Proc
+TI  - Using RxNorm and NDF-RT to classify medication data extracted from electronic health records: experiences from the Rochester Epidemiology Project
+VL  - 2011
+ID  - 60
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: There is increasing interest in using electronic health records (EHRs) to identify subjects for genomic association studies, due in part to the availability of large amounts of clinical data and the expected cost efficiencies of subject identification. We describe the construction and validation of an EHR-based algorithm to identify subjects with age-related cataracts. MATERIALS AND METHODS: We used a multi-modal strategy consisting of structured database querying, natural language processing on free-text documents, and optical character recognition on scanned clinical images to identify cataract subjects and related cataract attributes. Extensive validation on 3657 subjects compared the multi-modal results to manual chart review. The algorithm was also implemented at participating electronic MEdical Records and GEnomics (eMERGE) institutions. RESULTS: An EHR-based cataract phenotyping algorithm was successfully developed and validated, resulting in positive predictive values (PPVs) >95%. The multi-modal approach increased the identification of cataract subject attributes by a factor of three compared to single-mode approaches while maintaining high PPV. Components of the cataract algorithm were successfully deployed at three other institutions with similar accuracy. DISCUSSION: A multi-modal strategy incorporating optical character recognition and natural language processing may increase the number of cases identified while maintaining similar PPVs. Such algorithms, however, require that the needed information be embedded within clinical documents. CONCLUSION: We have demonstrated that algorithms to identify and characterize cataracts can be developed utilizing data collected via the EHR. These algorithms provide a high level of accuracy even when implemented across multiple EHRs and institutional boundaries.
+AU  - Peissig, P. L.
+AU  - Rasmussen, L. V.
+AU  - Berg, R. L.
+AU  - Linneman, J. G.
+AU  - McCarty, C. A.
+AU  - Waudby, C.
+AU  - Chen, L.
+AU  - Denny, J. C.
+AU  - Wilke, R. A.
+AU  - Pathak, J.
+AU  - Carrell, D.
+AU  - Kho, A. N.
+AU  - Starren, J. B.
+DA  - 2012
+DO  - 10.1136/amiajnl-2011-000456.
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21445943
+5259
+PY  - 2012
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - 225-34
+ST  - Importance of multi-modal approaches to effectively identify cataract cases from electronic health records
+T2  - J Am Med Inform Assoc
+TI  - Importance of multi-modal approaches to effectively identify cataract cases from electronic health records
+VL  - 19
+ID  - 62
+ER  - 
+
+
+TY  - JOUR
+AB  - Drug Named Entity Recognition (drug-NER) is a critical step for complex Biomedical Natural Language Processing (BioNLP) tasks such as the extraction of pharmacogenomic, pharmaco-dynamic and pharmaco-kinetic parameters. Large quantities of high quality training data are almost always a prerequisite for employing supervised machine-learning (ML) techniques to achieve high classification performance. However, the human labour needed to produce and maintain such resources is a detrimental limitation. In this study, we attempt to improve the performance of drug NER without relying exclusively on manual annotations. Instead, we use either a small gold-standard corpus (120 abstracts) or no corpus at all. In our approach, we use a voting system to combine a number of heterogeneous models to enhance performance. Moreover, 11 regular-expressions that capture common drug suffixes were evolved via genetic-programming. We evaluate our approach against state-of-the-art recognisers trained on manual annotations, automatic annotations and a mixture of both. Aggregate classifiers are shown to improve performance, achieving a maximum F-score of 95%. In addition, combined models trained on mixed data are shown to achieve comparable performance to models trained exclusively on gold-standard data.
+AU  - Piliouras, D.
+AU  - Korkontzelos, I.
+AU  - Dowsey, A.
+AU  - Ananiadou, S.
+AU  - Ieee
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21444580
+8616
+Piliouras, Dimitrios Korkontzelos, Ioannis Dowsey, Andrew Ananiadou, Sophia 1st IEEE International Conference on Healthcare Informatics (ICHI) SEP 09-11, 2013 Philadelphia, PA IEEE, IEEE Comp Soc Dowsey, Andrew/0000-0002-7404-9128 978-0-7695-5089-3
+PY  - 2013
+SP  - 14-21
+ST  - Dealing with data sparsity in Drug Named Entity Recognition
+T2  - 2013 Ieee International Conference on Healthcare Informatics (Ichi 2013)
+TI  - Dealing with data sparsity in Drug Named Entity Recognition
+UR  - <Go to ISI>://WOS:000332894400002
+ID  - 63
+ER  - 
+
+
+TY  - JOUR
+AB  - The Strategic Health IT Advanced Research Projects (SHARP) Program, established by the Office of the National Coordinator for Health Information Technology in 2010 supports research findings that remove barriers for increased adoption of health IT. The improvements envisioned by the SHARP Area 4 Consortium (SHARPn) will enable the use of the electronic health record (EHR) for secondary purposes, such as care process and outcomes improvement, biomedical research and epidemiologic monitoring of the nation's health. One of the primary informatics problem areas in this endeavor is the standardization of disparate health data from the nation's many health care organizations and providers. The SHARPn team is developing open source services and components to support the ubiquitous exchange, sharing and reuse or 'liquidity' of operational clinical data stored in electronic health records. One year into the design and development of the SHARPn framework, we demonstrated end to end data flow and a prototype SHARPn platform, using thousands of patient electronic records sourced from two large healthcare organizations: Mayo Clinic and Intermountain Healthcare. The platform was deployed to (1) receive source EHR data in several formats, (2) generate structured data from EHR narrative text, and (3) normalize the EHR data using common detailed clinical models and Consolidated Health Informatics standard terminologies, which were (4) accessed by a phenotyping service using normalized data specifications. The architecture of this prototype SHARPn platform is presented. The EHR data throughput demonstration showed success in normalizing native EHR data, both structured and narrative, from two independent organizations and EHR systems. Based on the demonstration, observed challenges for standardization of EHR data for interoperable secondary use are discussed.
+AU  - Rea, S.
+AU  - Pathak, J.
+AU  - Savova, G.
+AU  - Oniki, T. A.
+AU  - Westberg, L.
+AU  - Beebe, C. E.
+AU  - Tao, C.
+AU  - Parker, C. G.
+AU  - Haug, P. J.
+AU  - Huff, S. M.
+AU  - Chute, C. G.
+DA  - 2012
+DO  - 10.1016/j.jbi.2012.01.009. Epub 2012 Feb 4.
+IS  - 4
+KW  - eppi-reviewer4
+N1  - 21443916
+5257
+PY  - 2012
+SN  - 1532-0480 (Electronic) 1532-0464 (Linking)
+SP  - 763-71
+ST  - Building a robust, scalable and standards-driven infrastructure for secondary use of EHR data: the SHARPn project
+T2  - J Biomed Inform
+TI  - Building a robust, scalable and standards-driven infrastructure for secondary use of EHR data: the SHARPn project
+VL  - 45
+ID  - 64
+ER  - 
+
+
+TY  - JOUR
+AB  - Objective: Epilepsy encompasses an extensive array of clinical and research subdomains, many of which emphasize multi-modal physiological measurements such as electroencephalography and neuroimaging. The integration of structured, unstructured, and signal data into a coherent structure for patient care as well as clinical research requires an effective informatics infrastructure that is underpinned by a formal domain ontology. Methods: We have developed an epilepsy and seizure ontology (EpSO) using a four-dimensional epilepsy classification system that integrates the latest International League Against Epilepsy terminology recommendations and National Institute of Neurological Disorders and Stroke (NINDS) common data elements. It imports concepts from existing ontologies, including the Neural ElectroMagnetic Ontologies, and uses formal concept analysis to create a taxonomy of epilepsy syndromes based on their seizure semiology and anatomical location. Results: EpSO is used in a suite of informatics tools for (a) patient data entry, (b) epilepsy focused clinical free text processing, and (c) patient cohort identification as part of the multi-center NINDS-funded study on sudden unexpected death in epilepsy. EpSO is available for download at http://prism.case.edu/prism/index.php/ EpilepsyOntology. Discussion: An epilepsy ontology consortium is being created for community-driven extension, review, and adoption of EpSO. We are in the process of submitting EpSO to the BioPortal repository. Conclusions EpSO plays a critical role in informatics tools for epilepsy patient care and multi-center clinical research.
+AU  - Sahoo, S. S.
+AU  - Lhatoo, S. D.
+AU  - Gupta, D. K.
+AU  - Cui, L.
+AU  - Zhao, M.
+AU  - Jayapandian, C.
+AU  - Bozorgi, A.
+AU  - Zhang, G. Q.
+DA  - 2014
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21445088
+7664
+PY  - 2014
+SN  - 1067-5027 1527-974X
+SP  - 82-89
+ST  - Epilepsy and seizure ontology: Towards an epilepsy informatics infrastructure for clinical research and patient care
+T2  - Journal of the American Medical Informatics Association
+TI  - Epilepsy and seizure ontology: Towards an epilepsy informatics infrastructure for clinical research and patient care
+UR  - http://www.embase.com/search/results?subaction=viewrecord&from=export&id=L370514332 http://dx.doi.org/10.1136/amiajnl-2013-001696 http://sfxhosted.exlibrisgroup.com/fda?sid=EMBASE&issn=10675027&id=doi:10.1136%2Famiajnl-2013-001696&atitle=Epilepsy+and+seizure+ontology%3A+Towards+an+epilepsy+informatics+infrastructure+for+clinical+research+and+patient+care&stitle=J.+Am.+Med.+Informatics+Assoc.&title=Journal+of+the+American+Medical+Informatics+Association&volume=21&issue=1&spage=82&epage=89&aulas
+VL  - 21
+ID  - 65
+ER  - 
+
+
+TY  - JOUR
+AB  - Extracting comorbidity information is crucial for phenotypic studies because of the confounding effect of comorbidities. We developed an automated method that accurately determines comorbidities from electronic medical records. Using a modified version of the Charlson comorbidity index (CCI), two physicians created a reference standard of comorbidities by manual review of 100 admission notes. We processed the notes using the MedLEE natural language processing system, and wrote queries to extract comorbidities automatically from its structured output. Interrater agreement for the reference set was very high (97.7%). Our method yielded an F1 score of 0.761 and the summed CCI score was not different from the reference standard (p=0.329, power 80.4%). In comparison, obtaining comorbidities from claims data yielded an F1 score of 0.741, due to lower sensitivity (66.1%). Because CCI has previously been validated as a predictor of mortality and readmission, our method could allow automated prediction of these outcomes.
+AU  - Salmasian, H.
+AU  - Freedberg, D. E.
+AU  - Friedman, C.
+DA  - 2013
+DO  - 10.1136/amiajnl-2013-001889. Epub 2013 Oct 31.
+IS  - e2
+KW  - eppi-reviewer4
+N1  - 21444623
+4649
+PY  - 2013
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - e239-42
+ST  - Deriving comorbidities from medical records using natural language processing
+T2  - J Am Med Inform Assoc
+TI  - Deriving comorbidities from medical records using natural language processing
+VL  - 20
+ID  - 66
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: To develop an algorithm for the discovery of drug treatment patterns for endocrine breast cancer therapy within an electronic medical record and to test the hypothesis that information extracted using it is comparable to the information found by traditional methods. MATERIALS: The electronic medical charts of 1507 patients diagnosed with histologically confirmed primary invasive breast cancer. METHODS: The automatic drug treatment classification tool consisted of components for: (1) extraction of drug treatment-relevant information from clinical narratives using natural language processing (clinical Text Analysis and Knowledge Extraction System); (2) extraction of drug treatment data from an electronic prescribing system; (3) merging information to create a patient treatment timeline; and (4) final classification logic. RESULTS: Agreement between results from the algorithm and from a nurse abstractor is measured for categories: (0) no tamoxifen or aromatase inhibitor (AI) treatment; (1) tamoxifen only; (2) AI only; (3) tamoxifen before AI; (4) AI before tamoxifen; (5) multiple AIs and tamoxifen cycles in no specific order; and (6) no specific treatment dates. Specificity (all categories): 96.14%-100%; sensitivity (categories (0)-(4)): 90.27%-99.83%; sensitivity (categories (5)-(6)): 0-23.53%; positive predictive values: 80%-97.38%; negative predictive values: 96.91%-99.93%. DISCUSSION: Our approach illustrates a secondary use of the electronic medical record. The main challenge is event temporality. CONCLUSION: We present an algorithm for automated treatment classification within an electronic medical record to combine information extracted through natural language processing with that extracted from structured databases. The algorithm has high specificity for all categories, high sensitivity for five categories, and low sensitivity for two categories.
+AU  - Savova, G. K.
+AU  - Olson, J. E.
+AU  - Murphy, S. P.
+AU  - Cafourek, V. L.
+AU  - Couch, F. J.
+AU  - Goetz, M. P.
+AU  - Ingle, J. N.
+AU  - Suman, V. J.
+AU  - Chute, C. G.
+AU  - Weinshilboum, R. M.
+DA  - 2012
+IS  - e1
+KW  - eppi-reviewer4
+N1  - 21443732
+5317
+Savova, Guergana K Olson, Janet E Murphy, Sean P Cafourek, Victoria L Couch, Fergus J Goetz, Matthew P Ingle, James N Suman, Vera J Chute, Christopher G Weinshilboum, Richard M CA 116201/CA/NCI NIH HHS/United States P50 CA116201/CA/NCI NIH HHS/United States R01 CA122340/CA/NCI NIH HHS/United States U01 HG 04599/HG/NHGRI NIH HHS/United States UO1 GM61388/GM/NIGMS NIH HHS/United States Research Support, N.I.H., Extramural Research Support, Non-U.S. Gov't United States J Am Med Inform Assoc. 2012 Jun;19(e1):e83-9. Epub 2011 Dec 1.
+PY  - 2012
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - e83-9
+ST  - Automated discovery of drug treatment patterns for endocrine therapy of breast cancer within an electronic medical record
+T2  - J Am Med Inform Assoc
+TI  - Automated discovery of drug treatment patterns for endocrine therapy of breast cancer within an electronic medical record
+VL  - 19
+ID  - 67
+ER  - 
+
+
+TY  - JOUR
+AB  - PURPOSE: The General Practice Research Database (GPRD) is a database of longitudinal patient records from general practices in the United Kingdom. It is an important data source for pharmacoepidemiology studies, but until now it has been tedious to calculate the daily dose and duration of exposure to drugs prescribed. This is because general practitioners routinely record dosage instructions as free text rather than in a structured way. The objective was to develop and assess the validity of an automated algorithm to derive the daily dose from text dosage instructions. METHODS: A computer program was developed to derive numerical information from unstructured text dosage instructions. It was tested on dosage texts from a random sample of one million prescription entries. A random sample of 1,000 of these converted texts were manually checked for their accuracy. RESULTS: Out of the sample of one million prescription entries, 74.5% had text containing the daily dose, 14.5% had text but did not include a quantitative daily dose statement and 11.0% had no text entered. Of the 1000 texts which were checked manually, 767 stated the daily dose. The program interpreted 758 (98.8%) of these correctly, produced errors in four cases and failed to extract the dose from five texts. CONCLUSIONS: An automated algorithm has been developed which can accurately extract the daily dose from almost 99% of general practitioners' text dosage instructions. It increases the utility of GPRD and other prescription data sources by enabling researchers to estimate the duration of drug exposure more efficiently.
+AU  - Shah, A. D.
+AU  - Martinez, C.
+DA  - 2006
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21443504
+6767
+Shah, Anoop D Martinez, Carlos Research Support, Non-U.S. Gov't Validation Studies England Pharmacoepidemiol Drug Saf. 2006 Mar;15(3):161-6.
+PY  - 2006
+SN  - 1053-8569 (Print) 1053-8569 (Linking)
+SP  - 161-6
+ST  - An algorithm to derive a numerical daily dose from unstructured text dosage instructions
+T2  - Pharmacoepidemiol Drug Saf
+TI  - An algorithm to derive a numerical daily dose from unstructured text dosage instructions
+VL  - 15
+ID  - 68
+ER  - 
+
+
+TY  - JOUR
+AB  - Adverse reactions to medications to which the patient was known to be intolerant are common. Electronic decision support can prevent them but only if history of adverse reactions to medications is recorded in structured format. We have conducted a retrospective study of 31,531 patients with adverse reactions to statins documented in the notes, as identified with natural language processing. The software identified statin adverse reactions with sensitivity of 86.5% and precision of 91.9%. Only 9020 of these patients had an adverse reaction to a statin recorded in structured format. In multivariable analysis the strongest predictor of structured documentation was utilization of EMR functionality that integrated the medication list with the structured medication adverse reaction repository (odds ratio 48.6, p < 0.0001). Integration of information flow between EMR modules can help improve documentation and potentially prevent adverse drug events.
+AU  - Skentzos, S.
+AU  - Shubina, M.
+AU  - Plutzky, J.
+AU  - Turchin, A.
+DA  - 2011
+KW  - eppi-reviewer4
+N1  - 21448230
+5298
+Skentzos, Stephen Shubina, Maria Plutzky, Jorge Turchin, Alexander 1RC1LM010460/LM/NLM NIH HHS/United States Research Support, N.I.H., Extramural Validation Studies United States AMIA Annu Symp Proc. 2011;2011:1270-9. Epub 2011 Oct 22.
+PY  - 2011
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1270-9
+ST  - Structured vs. unstructured: factors affecting adverse drug reaction documentation in an EMR repository
+T2  - AMIA Annu Symp Proc
+TI  - Structured vs. unstructured: factors affecting adverse drug reaction documentation in an EMR repository
+VL  - 2011
+ID  - 69
+ER  - 
+
+
+TY  - JOUR
+AB  - Capture and representation of scientific knowledge in a structured format are essential to improve the understanding of biological mechanisms involved in complex diseases. Biological knowledge and knowledge about standardized terminologies are difficult to capture from literature in a usable form. A semi-automated knowledge extraction workflow is presented that was developed to allow users to extract causal and correlative relationships from scientific literature and to transcribe them into the computable and human readable Biological Expression Language (BEL). The workflow combines state-of-the-art linguistic tools for recognition of various entities and extraction of knowledge from literature sources. Unlike most other approaches, the workflow outputs the results to a curation interface for manual curation and converts them into BEL documents that can be compiled to form biological networks. We developed a new semi-automated knowledge extraction workflow that was designed to capture and organize scientific knowledge and reduce the required curation skills and effort for this task. The workflow was used to build a network that represents the cellular and molecular mechanisms implicated in atherosclerotic plaque destabilization in an apolipoprotein-E-deficient (ApoE(-/-)) mouse model. The network was generated using knowledge extracted from the primary literature. The resultant atherosclerotic plaque destabilization network contains 304 nodes and 743 edges supported by 33 PubMed referenced articles. A comparison between the semi-automated and conventional curation processes showed similar results, but significantly reduced curation effort for the semi-automated process. Creating structured knowledge from unstructured text is an important step for the mechanistic interpretation and reusability of knowledge. Our new semi-automated knowledge extraction workflow reduced the curation skills and effort required to capture and organize scientific knowledge. The atherosclerotic plaque destabilization network that was generated is a causal network model for vascular disease demonstrating the usefulness of the workflow for knowledge extraction and construction of mechanistically meaningful biological networks.
+AU  - Szostak, J.
+AU  - Ansari, S.
+AU  - Madan, S.
+AU  - Fluck, J.
+AU  - Talikka, M.
+AU  - Iskandar, A.
+AU  - De, Leon
+AU  - Hofmann-Apitius, M.
+AU  - Peitsch, M. C.
+AU  - Hoeng, J.
+DA  - 2015
+DO  - 10.1093/database/bav057.
+KW  - eppi-reviewer4
+N1  - 21444373
+3953
+PY  - 2015
+SN  - 1758-0463 (Electronic) 1758-0463 (Linking)
+SP  - bav057
+ST  - Construction of biological networks from unstructured information based on a semi-automated curation workflow
+T2  - Database (Oxford)
+TI  - Construction of biological networks from unstructured information based on a semi-automated curation workflow
+VL  - 2015
+ID  - 70
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: To determine whether specific design interventions (changes in the user interface (UI)) of an electronic health record (EHR) medication module are associated with an increase or decrease in the incidence of contradictions between the structured and narrative components of electronic prescriptions (internal prescription discrepancies). MATERIALS AND METHODS: We performed a retrospective analysis of 960,000 randomly selected electronic prescriptions generated in a single EHR between 01/2004 and 12/2011. Internal prescription discrepancies were identified using a validated natural language processing tool with recall of 76% and precision of 84%. A multivariable autoregressive integrated moving average (ARIMA) model was used to evaluate the effect of five UI changes in the EHR medication module on incidence of internal prescription discrepancies. RESULTS: Over the study period 175,725 (18.4%) prescriptions were found to have internal discrepancies. The highest rate of prescription discrepancies was observed in March 2006 (22.5%) and the lowest in March 2009 (15.0%). Addition of "as directed" option to the <Frequency> dropdown decreased prescription discrepancies by 195 / month (p = 0.0004). An non-interruptive alert that reminded providers to ensure that structured and narrative components did not contradict each other decreased prescription discrepancies by 145 / month (p = 0.03). Addition of a "Renew / Sign" button to the Medication module (a negative control) did not have an effect in prescription discrepancies. CONCLUSIONS: Several UI changes in the electronic medication module were effective in reducing the incidence of internal prescription discrepancies. Further research is needed to identify interventions that can completely eliminate this type of prescription error and their effects on patient outcomes.
+AU  - Turchin, A.
+AU  - Sawarkar, A.
+AU  - Dementieva, Y. A.
+AU  - Breydo, E.
+AU  - Ramelson, H.
+DA  - 2014
+DO  - 10.4338/ACI-2014-03-RA-0023. eCollection 2014.
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21444914
+4254
+PY  - 2014
+SN  - 1869-0327 (Electronic)
+SP  - 708-20
+ST  - Effect of EHR user interface changes on internal prescription discrepancies
+T2  - Appl Clin Inform
+TI  - Effect of EHR user interface changes on internal prescription discrepancies
+VL  - 5
+ID  - 71
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: This study evaluated a computerized method for extracting numeric clinical measurements related to diabetes care from free text in electronic patient records (EPR) of general practitioners. DESIGN AND MEASUREMENTS: Accuracy of this number-oriented approach was compared to manual chart abstraction. Audits measured performance in clinical practice for two commonly used electronic record systems. RESULTS: Numeric measurements embedded within free text of the EPRs constituted 80% of relevant measurements. For 11 of 13 clinical measurements, the study extraction method was 94%-100% sensitive with a positive predictive value (PPV) of 85%-100%. Post-processing increased sensitivity several points and improved PPV to 100%. Application in clinical practice involved processing times averaging 7.8 minutes per 100 patients to extract all relevant data. CONCLUSION: The study method converted numeric clinical information to structured data with high accuracy, and enabled research and quality of care assessments for practices lacking structured data entry.
+AU  - Voorham, J.
+AU  - Denig, P.
+DA  - 2007
+IS  - 3
+KW  - eppi-reviewer4
+N1  - 21444320
+6546
+Voorham, Jaco Denig, Petra Evaluation Studies Research Support, Non-U.S. Gov't United States J Am Med Inform Assoc. 2007 May-Jun;14(3):349-54. Epub 2007 Feb 28.
+PY  - 2007
+SN  - 1067-5027 (Print) 1067-5027 (Linking)
+SP  - 349-54
+ST  - Computerized extraction of information on the quality of diabetes care from free text in electronic patient records of general practitioners
+T2  - J Am Med Inform Assoc
+TI  - Computerized extraction of information on the quality of diabetes care from free text in electronic patient records of general practitioners
+VL  - 14
+ID  - 72
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Pathology reports typically require manual review to abstract research data. We developed a natural language processing (NLP) system to automatically interpret free-text breast pathology reports with limited assistance from manual abstraction. METHODS: We used an iterative approach of machine learning algorithms and constructed groups of related findings to identify breast-related procedures and results from free-text pathology reports. We evaluated the NLP system using an all-or-nothing approach to determine which reports could be processed entirely using NLP and which reports needed manual review beyond NLP. We divided 3234 reports for development (2910, 90%), and evaluation (324, 10%) purposes using manually reviewed pathology data as our gold standard. RESULTS: NLP correctly coded 12.7% of the evaluation set, flagged 49.1% of reports for manual review, incorrectly coded 30.8%, and correctly omitted 7.4% from the evaluation set due to irrelevancy (i.e. not breast-related). Common procedures and results were identified correctly (e.g. invasive ductal with 95.5% precision and 94.0% sensitivity), but entire reports were flagged for manual review because of rare findings and substantial variation in pathology report text. CONCLUSIONS: The NLP system we developed did not perform sufficiently for abstracting entire breast pathology reports. The all-or-nothing approach resulted in too broad of a scope of work and limited our flexibility to identify breast pathology procedures and results. Our NLP system was also limited by the lack of the gold standard data on rare findings and wide variation in pathology text. Focusing on individual, common elements and improving pathology text report standardization may improve performance.
+AU  - Wieneke, A. E.
+AU  - Bowles, E. J.
+AU  - Cronkite, D.
+AU  - Wernli, K. J.
+AU  - Gao, H.
+AU  - Carrell, D.
+AU  - Buist, D. S.
+DA  - 2015
+DO  - 10.4103/2153-3539.159215. eCollection 2015.
+KW  - eppi-reviewer4
+N1  - 21448739
+3967
+PY  - 2015
+SN  - 2229-5089 (Print)
+SP  - 38
+ST  - Validation of natural language processing to extract breast cancer pathology procedures and results
+T2  - J Pathol Inform
+TI  - Validation of natural language processing to extract breast cancer pathology procedures and results
+VL  - 6
+ID  - 73
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: High smoking prevalence is a major public health concern for people with mental disorders. Improved monitoring could be facilitated through electronic health record (EHR) databases. We evaluated whether EHR information held in structured fields might be usefully supplemented by open-text information. The prevalence and correlates of EHR-derived current smoking in people with severe mental illness were also investigated. METHODS: All cases had been referred to a secondary mental health service between 2008-2011 and received a diagnosis of schizophreniform or bipolar disorder. The study focused on those aged over 15 years who had received active care from the mental health service for at least a year (N=1,555). The 'CRIS-IE-Smoking' application used General Architecture for Text Engineering (GATE) natural language processing software to extract smoking status information from open-text fields. A combination of CRIS-IE-Smoking with data from structured fields was evaluated for coverage and the prevalence and demographic correlates of current smoking were analysed. RESULTS: Proportions of patients with recorded smoking status increased from 11.6% to 64.0% through supplementing structured fields with CRIS-IE-Smoking data. The prevalence of current smoking was 59.6% in these 995 cases for whom this information was available. After adjustment, younger age (below 65 years), male sex, and non-cohabiting status were associated with current smoking status. CONCLUSIONS: A natural language processing application substantially improved routine EHR data on smoking status above structured fields alone and could thus be helpful in improving monitoring of this lifestyle behaviour. However, limited information on smoking status remained a challenge.
+AU  - Wu, C. Y.
+AU  - Chang, C. K.
+AU  - Robson, D.
+AU  - Jackson, R.
+AU  - Chen, S. J.
+AU  - Hayes, R. D.
+AU  - Stewart, R.
+DA  - 2013
+DO  - 10.1371/journal.pone.0074262. eCollection 2013.
+IS  - 9
+KW  - eppi-reviewer4
+N1  - 21445173
+4696
+PY  - 2013
+SN  - 1932-6203 (Electronic) 1932-6203 (Linking)
+SP  - e74262
+ST  - Evaluation of smoking status identification using electronic health records and open-text information in a large mental health case register
+T2  - PLoS One
+TI  - Evaluation of smoking status identification using electronic health records and open-text information in a large mental health case register
+VL  - 8
+ID  - 75
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: One challenge in reusing clinical data stored in electronic medical records is that these data are heterogenous. Clinical Natural Language Processing (NLP) plays an important role in transforming information in clinical text to a standard representation that is comparable and interoperable. Information may be processed and shared when a type system specifies the allowable data structures. Therefore, we aim to define a common type system for clinical NLP that enables interoperability between structured and unstructured data generated in different clinical settings. RESULTS: We describe a common type system for clinical NLP that has an end target of deep semantics based on Clinical Element Models (CEMs), thus interoperating with structured data and accommodating diverse NLP approaches. The type system has been implemented in UIMA (Unstructured Information Management Architecture) and is fully functional in a popular open-source clinical NLP system, cTAKES (clinical Text Analysis and Knowledge Extraction System) versions 2.0 and later. CONCLUSIONS: We have created a type system that targets deep semantics, thereby allowing for NLP systems to encapsulate knowledge from text and share it alongside heterogenous clinical data sources. Rather than surface semantics that are typically the end product of NLP algorithms, CEM-based semantics explicitly build in deep clinical semantics as the point of interoperability with more structured data types.
+AU  - Wu, S. T.
+AU  - Kaggal, V. C.
+AU  - Dligach, D.
+AU  - Masanz, J. J.
+AU  - Chen, P.
+AU  - Becker, L.
+AU  - Chapman, W. W.
+AU  - Savova, G. K.
+AU  - Liu, H.
+AU  - Chute, C. G.
+DA  - 2013
+DO  - 10.1186/2041-1480-4-1.
+IS  - 1
+KW  - eppi-reviewer4
+N1  - 21444172
+4943
+PY  - 2013
+SN  - 2041-1480 (Electronic)
+SP  - 1
+ST  - A common type system for clinical natural language processing
+T2  - J Biomed Semantics
+TI  - A common type system for clinical natural language processing
+VL  - 4
+ID  - 74
+ER  - 
+
+
+TY  - JOUR
+AB  - Identification of a cohort of patients with specific diseases is an important step for clinical research that is based on electronic health records (EHRs). Informatics approaches combining structured EHR data, such as billing records, with narrative text data have demonstrated utility for such tasks. This paper describes an algorithm combining machine learning and natural language processing to detect patients with colorectal cancer (CRC) from entire EHRs at Vanderbilt University Hospital. We developed a general case detection method that consists of two steps: 1) extraction of positive CRC concepts from all clinical notes (document-level concept identification); and 2) determination of CRC cases using aggregated information from both clinical narratives and structured billing data (patient-level case determination). For each step, we compared performance of rule-based and machine-learning-based approaches. Using a manually reviewed data set containing 300 possible CRC patients (150 for training and 150 for testing), we showed that our method achieved F-measures of 0.996 for document level concept identification, and 0.93 for patient level case detection.
+AU  - Xu, H.
+AU  - Fu, Z.
+AU  - Shah, A.
+AU  - Chen, Y.
+AU  - Peterson, N. B.
+AU  - Chen, Q.
+AU  - Mani, S.
+AU  - Levy, M. A.
+AU  - Dai, Q.
+AU  - Denny, J. C.
+DA  - 2011
+KW  - eppi-reviewer4
+N1  - 21445290
+5297
+Xu, Hua Fu, Zhenming Shah, Anushi Chen, Yukun Peterson, Neeraja B Chen, Qingxia Mani, Subramani Levy, Mia A Dai, Qi Denny, Josh C 1UL1RR024975-01/RR/NCRR NIH HHS/United States LM008635/LM/NLM NIH HHS/United States LM010016/LM/NLM NIH HHS/United States R01CA141307/CA/NCI NIH HHS/United States Comparative Study Research Support, N.I.H., Extramural United States AMIA Annu Symp Proc. 2011;2011:1564-72. Epub 2011 Oct 22.
+PY  - 2011
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1564-72
+ST  - Extracting and integrating data from entire electronic health records for detecting colorectal cancer cases
+T2  - AMIA Annu Symp Proc
+TI  - Extracting and integrating data from entire electronic health records for detecting colorectal cancer cases
+VL  - 2011
+ID  - 76
+ER  - 
+
+
+TY  - JOUR
+AB  - OBJECTIVE: A system that translates narrative text in the medical domain into structured representation is in great demand. The system performs three sub-tasks: concept extraction, assertion classification, and relation identification. DESIGN: The overall system consists of five steps: (1) pre-processing sentences, (2) marking noun phrases (NPs) and adjective phrases (APs), (3) extracting concepts that use a dosage-unit dictionary to dynamically switch two models based on Conditional Random Fields (CRF), (4) classifying assertions based on voting of five classifiers, and (5) identifying relations using normalized sentences with a set of effective discriminating features. MEASUREMENTS: Macro-averaged and micro-averaged precision, recall and F-measure were used to evaluate results. RESULTS: The performance is competitive with the state-of-the-art systems with micro-averaged F-measure of 0.8489 for concept extraction, 0.9392 for assertion classification and 0.7326 for relation identification. CONCLUSIONS: The system exploits an array of common features and achieves state-of-the-art performance. Prudent feature engineering sets the foundation of our systems. In concept extraction, we demonstrated that switching models, one of which is especially designed for telegraphic sentences, improved extraction of the treatment concept significantly. In assertion classification, a set of features derived from a rule-based classifier were proven to be effective for the classes such as conditional and possible. These classes would suffer from data scarcity in conventional machine-learning methods. In relation identification, we use two-staged architecture, the second of which applies pairwise classifiers to possible candidate classes. This architecture significantly improves performance.
+AU  - Xu, Y.
+AU  - Hong, K.
+AU  - Tsujii, J.
+AU  - Chang, E. I.
+DA  - 2012
+DO  - 10.1136/amiajnl-2011-000776. Epub 2012 May 14.
+IS  - 5
+KW  - eppi-reviewer4
+N1  - 21445354
+5173
+PY  - 2012
+SN  - 1527-974X (Electronic) 1067-5027 (Linking)
+SP  - 824-32
+ST  - Feature engineering combined with machine learning and rule-based methods for structured information extraction from narrative clinical discharge summaries
+T2  - J Am Med Inform Assoc
+TI  - Feature engineering combined with machine learning and rule-based methods for structured information extraction from narrative clinical discharge summaries
+VL  - 19
+ID  - 77
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: The authors have previously demonstrated highly reliable automated classification of free-text computed tomography (CT) imaging reports using a hybrid system that pairs linguistic (natural language processing) and statistical (machine learning) techniques. Previously performed for identifying the outcome of orbital fracture in unprocessed radiology reports from a clinical data repository, the performance has not been replicated for more complex outcomes. OBJECTIVES: To validate automated outcome classification performance of a hybrid natural language processing (NLP) and machine learning system for brain CT imaging reports. The hypothesis was that our system has performance characteristics for identifying pediatric traumatic brain injury (TBI). METHODS: This was a secondary analysis of a subset of 2,121 CT reports from the Pediatric Emergency Care Applied Research Network (PECARN) TBI study. For that project, radiologists dictated CT reports as free text, which were then deidentified and scanned as PDF documents. Trained data abstractors manually coded each report for TBI outcome. Text was extracted from the PDF files using optical character recognition. The data set was randomly split evenly for training and testing. Training patient reports were used as input to the Medical Language Extraction and Encoding (MedLEE) NLP tool to create structured output containing standardized medical terms and modifiers for negation, certainty, and temporal status. A random subset stratified by site was analyzed using descriptive quantitative content analysis to confirm identification of TBI findings based on the National Institute of Neurological Disorders and Stroke (NINDS) Common Data Elements project. Findings were coded for presence or absence, weighted by frequency of mentions, and past/future/indication modifiers were filtered. After combining with the manual reference standard, a decision tree classifier was created using data mining tools WEKA 3.7.5 and Salford Predictive Miner 7.0. Performance of the decision tree classifier was evaluated on the test patient reports. RESULTS: The prevalence of TBI in the sampled population was 159 of 2,217 (7.2%). The automated classification for pediatric TBI is comparable to our prior results, with the notable exception of lower positive predictive value. Manual review of misclassified reports, 95.5% of which were false-positives, revealed that a sizable number of false-positive errors were due to differing outcome definitions between NINDS TBI findings and PECARN clinical important TBI findings and report ambiguity not meeting definition criteria. CONCLUSIONS: A hybrid NLP and machine learning automated classification system continues to show promise in coding free-text electronic clinical data. For complex outcomes, it can reliably identify negative reports, but manual review of positive reports may be required. As such, it can still streamline data collection for clinical research and performance improvement.
+AU  - Yadav, K.
+AU  - Sarioglu, E.
+AU  - Choi, H. A.
+AU  - Cartwright, W. B. th
+AU  - Hinds, P. S.
+AU  - Chamberlain, J. M.
+DA  - 2016
+DO  - 10.1111/acem.12859. Epub 2016 Jan 14.
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21443740
+3846
+PY  - 2016
+SN  - 1553-2712 (Electronic) 1069-6563 (Linking)
+SP  - 171-8
+ST  - Automated Outcome Classification of Computed Tomography Imaging Reports for Pediatric Traumatic Brain Injury
+T2  - Acad Emerg Med
+TI  - Automated Outcome Classification of Computed Tomography Imaging Reports for Pediatric Traumatic Brain Injury
+VL  - 23
+ID  - 79
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: Reliably abstracting outcomes from free-text electronic health records remains a challenge. While automated classification of free text has been a popular medical informatics topic, performance validation using real-world clinical data has been limited. The two main approaches are linguistic (natural language processing [NLP]) and statistical (machine learning). The authors have developed a hybrid system for abstracting computed tomography (CT) reports for specified outcomes. OBJECTIVES: The objective was to measure performance of a hybrid NLP and machine learning system for automated outcome classification of emergency department (ED) CT imaging reports. The hypothesis was that such a system is comparable to medical personnel doing the data abstraction. METHODS: A secondary analysis was performed on a prior diagnostic imaging study on 3,710 blunt facial trauma victims. Staff radiologists dictated CT reports as free text, which were then deidentified. A trained data abstractor manually coded the reference standard outcome of acute orbital fracture, with a random subset double-coded for reliability. The data set was randomly split evenly into training and testing sets. Training patient reports were used as input to the Medical Language Extraction and Encoding (MedLEE) NLP tool to create structured output containing standardized medical terms and modifiers for certainty and temporal status. Findings were filtered for low certainty and past/future modifiers and then combined with the manual reference standard to generate decision tree classifiers using data mining tools Waikato Environment for Knowledge Analysis (WEKA) 3.7.5 and Salford Predictive Miner 6.6. Performance of decision tree classifiers was evaluated on the testing set with or without NLP processing. RESULTS: The performance of machine learning alone was comparable to prior NLP studies (sensitivity = 0.92, specificity = 0.93, precision = 0.95, recall = 0.93, f-score = 0.94), and the combined use of NLP and machine learning showed further improvement (sensitivity = 0.93, specificity = 0.97, precision = 0.97, recall = 0.96, f-score = 0.97). This performance is similar to, or better than, that of medical personnel in previous studies. CONCLUSIONS: A hybrid NLP and machine learning automated classification system shows promise in coding free-text electronic clinical data.
+AU  - Yadav, K.
+AU  - Sarioglu, E.
+AU  - Smith, M.
+AU  - Choi, H. A.
+DA  - 2013
+DO  - 10.1111/acem.12174.
+IS  - 8
+KW  - eppi-reviewer4
+N1  - 21443741
+4711
+PY  - 2013
+SN  - 1553-2712 (Electronic) 1069-6563 (Linking)
+SP  - 848-54
+ST  - Automated outcome classification of emergency department computed tomography imaging reports
+T2  - Acad Emerg Med
+TI  - Automated outcome classification of emergency department computed tomography imaging reports
+VL  - 20
+ID  - 78
+ER  - 
+
+
+TY  - CHAP
+A2  - Huang, Z.
+A2  - Liu, C.
+A2  - He, J.
+A2  - Huang, G.
+AB  - Most digital information resources for readers of the medical library exist in the form of unstructured free text (journal papers). Therefore it has become the new direction of data mining research to extract keywords in the collection of medical literature and turn them into structured knowledge that is easily accessible and analyzable. MetaMap, a mapping tool from free text to the UMLS Metathesaurus developed by the U.S. National Library of Medicine, maps keywords to the normative UMLS thesaurus, and provides a rating for the mapping degree of every word. The present study extracts keywords from the English language literature of insulin-like growth factors 1 research, assigns weights to the keywords using the BM25F model, screens out groups of important keywords, carries out a cluster analysis of these keywords.
+AU  - Yin, S. M.
+AU  - Li, C. Y.
+AU  - Zhou, Y. G.
+AU  - Huang, J.
+KW  - eppi-reviewer4
+N1  - 21444656
+8380
+Yin, Shumei Li, Chunying Zhou, Yigang Huang, Jun 14th Conference on Web Information Systems Engineering (WISE) OCT 13-15, 2013 Nanjing, PEOPLES R CHINA Zhou, Yigang/M-8006-2014 Zhou, Yigang/0000-0003-4236-4884
+PY  - 2014
+SN  - 0302-9743 978-3-642-54370-8; 978-3-642-54369-2
+SP  - 359-372
+ST  - Detecting Hotspots in Insulin-Like Growth Factors 1 Research through MetaMap and Data Mining Technologies
+T2  - Web Information Systems Engineering - Wise 2013 Workshops
+TI  - Detecting Hotspots in Insulin-Like Growth Factors 1 Research through MetaMap and Data Mining Technologies
+UR  - <Go to ISI>://WOS:000337296200031
+VL  - 8182
+ID  - 80
+ER  - 
+
+
+TY  - JOUR
+AB  - PURPOSE: A large share of the information in electronic medical records (EMRs) consists of free-text compositions. From a computational point-of-view, the continuing prevalence of free-text entry is a major hindrance when the goal is to increase automation in EMRs. However, the efforts in developing standards for the structured representation of medical information have not proven to be a panacea. The information space of clinical medicine is very diverse and constantly evolving, making it challenging to develop standards for the domain. This paper reports a study aiming to increase automation in the EMR through the computational understanding of specific class of medical text in English, namely emergency department chief complaints. METHODS: We apply domain-specific analytical modeling for the computational understanding of chief complaints. We evaluate the performance of this approach in the automatic classification of chief complaints, e.g., for use in automatic syndromic surveillance. RESULTS: The evaluation in a multi-hospital setting showed that the presented algorithm was accurate in terms of classification correctness. Also, use of approximate matching in the algorithm to cope with typographic variance did not affect classification correctness while increasing classification completeness.
+AU  - Yli-Hietanen, J.
+AU  - Niiranen, S.
+AU  - Aswell, M.
+AU  - Nathanson, L.
+DA  - 2009
+DO  - 10.1016/j.ijmedinf.2009.02.002. Epub 2009 Mar 23.
+IS  - 12
+KW  - eppi-reviewer4
+N1  - 21444869
+6072
+PY  - 2009
+SN  - 1872-8243 (Electronic) 1386-5056 (Linking)
+SP  - e27-30
+ST  - Domain-specific analytical language modeling--the chief complaint as a case study
+T2  - Int J Med Inform
+TI  - Domain-specific analytical language modeling--the chief complaint as a case study
+VL  - 78
+ID  - 81
+ER  - 
+
+
+TY  - JOUR
+AB  - Sudden Unexpected Death in Epilepsy (SUDEP) is the leading mode of epilepsy-related death and is most common in patients with intractable, frequent, and continuing seizures. A statistically significant cohort of patients for SUDEP study requires meticulous, prospective follow up of a large population that is at an elevated risk, best represented by the Epilepsy Monitoring Unit (EMU) patient population. Multiple EMUs need to collaborate, share data for building a larger cohort of potential SUDEP patient using a state-of-the-art informatics infrastructure. To address the challenges of data integration and data access from multiple EMUs, we developed the Multi-Modality Epilepsy Data Capture and Integration System (MEDCIS) that combines retrospective clinical free text processing using NLP, prospective structured data capture using an ontology-driven interface, interfaces for cohort search and signal visualization, all in a single integrated environment. A dedicated Epilepsy and Seizure Ontology (EpSO) has been used to streamline the user interfaces, enhance its usability, and enable mappings across distributed databases so that federated queries can be executed. MEDCIS contained 936 patient data sets from the EMUs of University Hospitals Case Medical Center (UH CMC) in Cleveland and Northwestern Memorial Hospital (NMH) in Chicago. Patients from UH CMC and NMH were stored in different databases and then federated through MEDCIS using EpSO and our mapping module. More than 77GB of multi-modal signal data were processed using the Cloudwave pipeline and made available for rendering through the web-interface. About 74% of the 40 open clinical questions of interest were answerable accurately using the EpSO-driven VISual AGregagator and Explorer (VISAGE) interface. Questions not directly answerable were either due to their inherent computational complexity, the unavailability of primary information, or the scope of concept that has been formulated in the existing EpSO terminology system.
+AU  - Zhang, G. Q.
+AU  - Cui, L.
+AU  - Lhatoo, S.
+AU  - Schuele, S. U.
+AU  - Sahoo, S. S.
+DA  - 2014
+KW  - eppi-reviewer4
+N1  - 21446530
+4597
+Zhang, Guo-Qiang Cui, Licong Lhatoo, Samden Schuele, Stephan U Sahoo, Satya S 1-P20-NS076965-01/NS/NINDS NIH HHS/United States UL1 TR000439/TR/NCATS NIH HHS/United States UL1TR000439/TR/NCATS NIH HHS/United States Research Support, N.I.H., Extramural Research Support, Non-U.S. Gov't United States AMIA Annu Symp Proc. 2014 Nov 14;2014:1248-57. eCollection 2014.
+PY  - 2014
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1248-57
+ST  - MEDCIS: Multi-Modality Epilepsy Data Capture and Integration System
+T2  - AMIA Annu Symp Proc
+TI  - MEDCIS: Multi-Modality Epilepsy Data Capture and Integration System
+VL  - 2014
+ID  - 82
+ER  - 
+
+
+TY  - JOUR
+AB  - PURPOSE: The purpose of this study was to investigate whether aspirin use can be captured from the clinical notes in a nonvalvular atrial fibrillation population. METHODS: A total of 29,507 patients with newly diagnosed nonvalvular atrial fibrillation were identified from January 1, 2006, through December 31, 2011, and were followed up through December 31, 2012. More than 3 million clinical notes were retrieved from electronic medical records. A training data set of 2949 notes was created to develop a computer-based method to automatically extract aspirin use status and dosage information using natural language processing (NLP). A gold standard data set of 5339 notes was created using a blinded manual review. NLP results were validated against the gold standard data set. The aspirin data from the structured medication databases were also compared with the results from NLP. Positive and negative predictive values, along with sensitivity and specificity, were calculated. FINDINGS: NLP achieved 95.5% sensitivity and 98.9% specificity when compared with the gold standard data set. The positive predictive value was 93.0%, and the negative predictive value was 99.3%. NLP identified aspirin use for 83.8% of the study population, and 70% of the low dose aspirin use was identified only by the NLP method. IMPLICATIONS: We developed and validated an NLP method specifically designed to identify low dose aspirin use status from the clinical notes with high accuracy. This method can be a valuable tool to supplement existing structured medication data.
+AU  - Zheng, C.
+AU  - Rashid, N.
+AU  - Koblick, R.
+AU  - An, J.
+DA  - 2015
+DO  - 10.1016/j.clinthera.2015.07.002. Epub 2015 Jul 29.
+IS  - 9
+KW  - eppi-reviewer4
+N1  - 21446538
+3939
+PY  - 2015
+SN  - 1879-114X (Electronic) 0149-2918 (Linking)
+SP  - 2048-2058 e2
+ST  - Medication Extraction from Electronic Clinical Notes in an Integrated Health System: A Study on Aspirin Use in Patients with Nonvalvular Atrial Fibrillation
+T2  - Clin Ther
+TI  - Medication Extraction from Electronic Clinical Notes in an Integrated Health System: A Study on Aspirin Use in Patients with Nonvalvular Atrial Fibrillation
+VL  - 37
+ID  - 84
+ER  - 
+
+
+TY  - JOUR
+AB  - To facilitate the process of extracting information from narrative medical reports and transforming extracted data into standardized structured forms, we present an interactive, incrementally learning based information extraction system - ASLForm. ASLForm provides users a convenient interface that can be used as a simple data extraction and data entry system. It is unique, however, in its ability to transparently analyze and quickly learn, from users' interactions with a small number of reports, the desired values for the data fields. Additional user feedback (through acceptance decision or edits on the generated values) can incrementally refine the decision model in real-time, which further reduces users' interaction effort thereafter. The system eventually achieves high accuracy on data extraction with minimal effort from users. ASLForm requires no special configuration or training sets, and is not constrained to specific domains, thus it is easy to use and highly portable. Our experiments demonstrate the effectiveness of the system.
+AU  - Zheng, S.
+AU  - Wang, F.
+AU  - Lu, J. J.
+DA  - 2013
+KW  - eppi-reviewer4
+N1  - 21443669
+4526
+Zheng, Shuai Wang, Fusheng Lu, James J United States AMIA Annu Symp Proc. 2013 Nov 16;2013:1590-9. eCollection 2013.
+PY  - 2013
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1590-9
+ST  - ASLForm: an adaptive self learning medical form generating system
+T2  - AMIA Annu Symp Proc
+TI  - ASLForm: an adaptive self learning medical form generating system
+VL  - 2013
+ID  - 83
+ER  - 
+
+
+TY  - JOUR
+AB  - BACKGROUND: The ability to manage and leverage family history information in the electronic health record (EHR) is crucial to delivering high-quality clinical care. OBJECTIVES: We aimed to evaluate existing standards in representing relative information, examine this information documented in EHRs, and develop a natural language processing (NLP) application to extract relative information from free-text clinical documents. METHODS: We reviewed a random sample of 100 admission notes and 100 discharge summaries of 198 patients, and also reviewed the structured entries for these patients in an EHR system's family history module. We investigated the two standards used by Stage 2 of Meaningful Use (SNOMED CT and HL7 Family History Standard) and identified coverage gaps of each standard in coding relative information. Finally, we evaluated the performance of the MTERMS NLP system in identifying relative information from free-text documents. RESULTS: The structure and content of SNOMED CT and HL7 for representing relative information are different in several ways. Both terminologies have high coverage to represent local relative concepts built in an ambulatory EHR system, but gaps in key concept coverage were detected; coverage rates for relative information in free-text clinical documents were 95.2% and 98.6%, respectively. Compared to structured entries, richer family history information was only available in free-text documents. Using a comprehensive lexicon that included concepts and terms of relative information from different sources, we expanded the MTERMS NLP system to extract and encode relative information in clinical documents and achieved a corresponding precision of 100% and recall of 97.4%. CONCLUSIONS: Comprehensive assessment and user guidance are critical to adopting standards into EHR systems in a meaningful way. A significant portion of patients' family history information is only documented in free-text clinical documents and NLP can be used to extract this information.
+AU  - Zhou, L.
+AU  - Lu, Y.
+AU  - Vitale, C. J.
+AU  - Mar, P. L.
+AU  - Chang, F.
+AU  - Dhopeshwarkar, N.
+AU  - Rocha, R. A.
+DA  - 2014
+DO  - 10.4338/ACI-2013-10-RA-0080. eCollection 2014.
+IS  - 2
+KW  - eppi-reviewer4
+N1  - 21447781
+4379
+PY  - 2014
+SN  - 1869-0327 (Electronic)
+SP  - 349-67
+ST  - Representation of information about family relatives as structured data in electronic health records
+T2  - Appl Clin Inform
+TI  - Representation of information about family relatives as structured data in electronic health records
+VL  - 5
+ID  - 86
+ER  - 
+
+
+TY  - JOUR
+AB  - Clinical information is often coded using different terminologies, and therefore is not interoperable. Our goal is to develop a general natural language processing (NLP) system, called Medical Text Extraction, Reasoning and Mapping System (MTERMS), which encodes clinical text using different terminologies and simultaneously establishes dynamic mappings between them. MTERMS applies a modular, pipeline approach flowing from a preprocessor, semantic tagger, terminology mapper, context analyzer, and parser to structure inputted clinical notes. Evaluators manually reviewed 30 free-text and 10 structured outpatient clinical notes compared to MTERMS output. MTERMS achieved an overall F-measure of 90.6 and 94.0 for free-text and structured notes respectively for medication and temporal information. The local medication terminology had 83.0% coverage compared to RxNorm's 98.0% coverage for free-text notes. 61.6% of mappings between the terminologies are exact match. Capture of duration was significantly improved (91.7% vs. 52.5%) from systems in the third i2b2 challenge.
+AU  - Zhou, L.
+AU  - Plasek, J. M.
+AU  - Mahoney, L. M.
+AU  - Karipineni, N.
+AU  - Chang, F.
+AU  - Yan, X.
+AU  - Chang, F.
+AU  - Dimaggio, D.
+AU  - Goldman, D. S.
+AU  - Rocha, R. A.
+DA  - 2011
+KW  - eppi-reviewer4
+N1  - 21448690
+5296
+Zhou, Li Plasek, Joseph M Mahoney, Lisa M Karipineni, Neelima Chang, Frank Yan, Xuemin Chang, Fenny Dimaggio, Dana Goldman, Debora S Rocha, Roberto A 1R03HS018288-01/HS/AHRQ HHS/United States R03 HS018288/HS/AHRQ HHS/United States Research Support, Non-U.S. Gov't Research Support, U.S. Gov't, P.H.S. United States AMIA Annu Symp Proc. 2011;2011:1639-48. Epub 2011 Oct 22.
+PY  - 2011
+SN  - 1942-597X (Electronic) 1559-4076 (Linking)
+SP  - 1639-48
+ST  - Using Medical Text Extraction, Reasoning and Mapping System (MTERMS) to process medication information in outpatient clinical notes
+T2  - AMIA Annu Symp Proc
+TI  - Using Medical Text Extraction, Reasoning and Mapping System (MTERMS) to process medication information in outpatient clinical notes
+VL  - 2011
+ID  - 85
+ER  - 
+
+
